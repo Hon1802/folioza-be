@@ -20,8 +20,10 @@ jobs:
     # Build Docker image
     - name: Build Docker Image
       run: |
-        docker build -t folioza-be .
-
+          docker buildx build \
+            --platform linux/amd64 \
+            -t folioza-be \
+            --load .
     # Save Docker image as a tar file
     - name: Save Docker Image
       run: |
@@ -53,6 +55,6 @@ jobs:
           # Load the Docker image
           cd ~/folioza/folioza-be
           docker load < ~/folioza/folioza-be/folioza-be.tar
-          docker stop loyalty-event-backend-dev || true
-          docker rm loyalty-event-backend-dev || true
+          docker stop backend-dev || true
+          docker rm backend-dev || true
           docker compose up -d
