@@ -1,0 +1,7 @@
+export enum OtpStatusEnum {
+  VERIFIED = 'VERIFIED',
+  UNVERIFIED = 'UNVERIFIED',
+  EXPIRED = 'EXPIRED',
+  SUCCEEDED = 'SUCCEEDED',
+  FAILED = 'FAILED',
+}

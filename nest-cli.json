@@ -1,0 +1,24 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@nestjs/swagger",
+        "options": {
+          "introspectComments": true
+        }
+      }
+    ],
+    "assets": [
+      "**/*.proto",
+      {
+        "include": "migrations/sqls/**/*.sql",
+        "outDir": "dist/src"
+      }
+    ],
+    "watchAssets": true,
+    "manualRestart": true,
+    "deleteOutDir": true
+  }
+}

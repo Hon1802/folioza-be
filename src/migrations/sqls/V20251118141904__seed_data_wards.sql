@@ -1,0 +1,9969 @@
+-- -- Migration: seed_data_wards
+
+-- BEGIN;
+
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1, '00070', 'Phường Hoàn Kiếm', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2, '00082', 'Phường Cửa Nam', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3, '00004', 'Phường Ba Đình', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (4, '00008', 'Phường Ngọc Hà', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (5, '00025', 'Phường Giảng Võ', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (6, '00256', 'Phường Hai Bà Trưng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (7, '00283', 'Phường Vĩnh Tuy', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (8, '00292', 'Phường Bạch Mai', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (9, '00235', 'Phường Đống Đa', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (10, '00229', 'Phường Kim Liên', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (11, '00226', 'Phường Văn Miếu - Quốc Tử Giám', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (12, '00199', 'Phường Láng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (13, '00190', 'Phường Ô Chợ Dừa', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (14, '00097', 'Phường Hồng Hà', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (15, '00328', 'Phường Lĩnh Nam', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (16, '00331', 'Phường Hoàng Mai', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (17, '00301', 'Phường Vĩnh Hưng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (18, '00322', 'Phường Tương Mai', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (19, '00316', 'Phường Định Công', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (20, '00337', 'Phường Hoàng Liệt', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (21, '00340', 'Phường Yên Sở', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (22, '00367', 'Phường Thanh Xuân', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (23, '00364', 'Phường Khương Đình', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (24, '00352', 'Phường Phương Liệt', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (25, '00166', 'Phường Cầu Giấy', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (26, '00160', 'Phường Nghĩa Đô', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (27, '00175', 'Phường Yên Hòa', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (28, '00103', 'Phường Tây Hồ', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (29, '00091', 'Phường Phú Thượng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (30, '00613', 'Phường Tây Tựu', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (31, '00619', 'Phường Phú Diễn', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (32, '00611', 'Phường Xuân Đỉnh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (33, '00602', 'Phường Đông Ngạc', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (34, '00598', 'Phường Thượng Cát', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (35, '00592', 'Phường Từ Liêm', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (36, '00622', 'Phường Xuân Phương', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (37, '00634', 'Phường Tây Mỗ', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (38, '00637', 'Phường Đại Mỗ', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (39, '00145', 'Phường Long Biên', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (40, '00118', 'Phường Bồ Đề', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (41, '00127', 'Phường Việt Hưng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (42, '00136', 'Phường Phúc Lợi', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (43, '09556', 'Phường Hà Đông', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (44, '09886', 'Phường Dương Nội', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (45, '09562', 'Phường Yên Nghĩa', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (46, '09568', 'Phường Phú Lương', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (47, '09552', 'Phường Kiến Hưng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (48, '00640', 'Xã Thanh Trì', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (49, '00664', 'Xã Đại Thanh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (50, '00685', 'Xã Nam Phù', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (51, '00679', 'Xã Ngọc Hồi', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (52, '00643', 'Phường Thanh Liệt', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (53, '10231', 'Xã Thượng Phúc', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (54, '10183', 'Xã Thường Tín', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (55, '10237', 'Xã Chương Dương', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (56, '10210', 'Xã Hồng Vân', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (57, '10273', 'Xã Phú Xuyên', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (58, '10279', 'Xã Phượng Dực', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (59, '10330', 'Xã Chuyên Mỹ', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (60, '10342', 'Xã Đại Xuyên', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (61, '10114', 'Xã Thanh Oai', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (62, '10126', 'Xã Bình Minh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (63, '10144', 'Xã Tam Hưng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (64, '10180', 'Xã Dân Hòa', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (65, '10354', 'Xã Vân Đình', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (66, '10369', 'Xã Ứng Thiên', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (67, '10417', 'Xã Hòa Xá', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (68, '10402', 'Xã Ứng Hòa', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (69, '10441', 'Xã Mỹ Đức', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (70, '10465', 'Xã Hồng Sơn', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (71, '10459', 'Xã Phúc Sơn', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (72, '10489', 'Xã Hương Sơn', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (73, '10015', 'Phường Chương Mỹ', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (74, '10030', 'Xã Phú Nghĩa', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (75, '10045', 'Xã Xuân Mai', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (76, '10081', 'Xã Trần Phú', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (77, '10096', 'Xã Hòa Phú', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (78, '10072', 'Xã Quảng Bị', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (79, '09661', 'Xã Minh Châu', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (80, '09619', 'Xã Quảng Oai', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (81, '09664', 'Xã Vật Lại', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (82, '09634', 'Xã Cổ Đô', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (83, '09676', 'Xã Bất Bạt', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (84, '09694', 'Xã Suối Hai', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (85, '09700', 'Xã Ba Vì', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (86, '09706', 'Xã Yên Bài', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (87, '09574', 'Phường Sơn Tây', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (88, '09604', 'Phường Tùng Thiện', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (89, '09616', 'Xã Đoài Phương', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (90, '09715', 'Xã Phúc Thọ', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (91, '09739', 'Xã Phúc Lộc', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (92, '09772', 'Xã Hát Môn', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (93, '09955', 'Xã Thạch Thất', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (94, '09982', 'Xã Hạ Bằng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (95, '10003', 'Xã Tây Phương', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (96, '09988', 'Xã Hòa Lạc', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (97, '04930', 'Xã Yên Xuân', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (98, '09895', 'Xã Quốc Oai', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (99, '09931', 'Xã Hưng Đạo', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (100, '09910', 'Xã Kiều Phú', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (101, '09952', 'Xã Phú Cát', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (102, '09832', 'Xã Hoài Đức', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (103, '09856', 'Xã Dương Hòa', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (104, '09871', 'Xã Sơn Đồng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (105, '09877', 'Xã An Khánh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (106, '09784', 'Xã Đan Phượng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (107, '09817', 'Xã Ô Diên', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (108, '09787', 'Xã Liên Minh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (109, '00565', 'Xã Gia Lâm', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (110, '00562', 'Xã Thuận An', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (111, '00577', 'Xã Bát Tràng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (112, '00541', 'Xã Phù Đổng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (113, '00475', 'Xã Thư Lâm', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (114, '00454', 'Xã Đông Anh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (115, '00466', 'Xã Phúc Thịnh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (116, '00493', 'Xã Thiên Lộc', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (117, '00508', 'Xã Vĩnh Thanh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (118, '09022', 'Xã Mê Linh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (119, '08980', 'Xã Yên Lãng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (120, '08995', 'Xã Tiến Thắng', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (121, '08974', 'Xã Quang Minh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (122, '00376', 'Xã Sóc Sơn', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (123, '00430', 'Xã Đa Phúc', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (124, '00433', 'Xã Nội Bài', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (125, '00385', 'Xã Trung Giã', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (126, '00382', 'Xã Kim Anh', 1)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (127, '07627', 'Xã Đại Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (128, '07615', 'Xã Sơn Động', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (129, '07616', 'Xã Tây Yên Tử', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (130, '07672', 'Xã Dương Hưu', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (131, '07642', 'Xã Yên Định', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (132, '07654', 'Xã An Lạc', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (133, '07621', 'Xã Vân Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (134, '07573', 'Xã Biển Động', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (135, '07582', 'Xã Lục Ngạn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (136, '07594', 'Xã Đèo Gia', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (137, '07543', 'Xã Sơn Hải', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (138, '07531', 'Xã Tân Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (139, '07537', 'Xã Biên Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (140, '07534', 'Xã Sa Lý', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (141, '07603', 'Xã Nam Dương', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (142, '07552', 'Xã Kiên Lao', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (143, '07525', 'Phường Chũ', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (144, '07612', 'Phường Phượng Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (145, '07492', 'Xã Lục Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (146, '07489', 'Xã Trường Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (147, '07519', 'Xã Cẩm Lý', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (148, '07450', 'Xã Đông Phú', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (149, '07486', 'Xã Nghĩa Phương', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (150, '07444', 'Xã Lục Nam', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (151, '07498', 'Xã Bắc Lũng', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (152, '07462', 'Xã Bảo Đài', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (153, '07375', 'Xã Lạng Giang', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (154, '07420', 'Xã Mỹ Thái', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (155, '07399', 'Xã Kép', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (156, '07432', 'Xã Tân Dĩnh', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (157, '07381', 'Xã Tiên Lục', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (158, '07288', 'Xã Yên Thế', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (159, '07294', 'Xã Bố Hạ', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (160, '07282', 'Xã Đồng Kỳ', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (161, '07246', 'Xã Xuân Lương', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (162, '07264', 'Xã Tam Tiến', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (163, '07339', 'Xã Tân Yên', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (164, '07351', 'Xã Ngọc Thiện', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (165, '07306', 'Xã Nhã Nam', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (166, '07330', 'Xã Phúc Hòa', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (167, '07333', 'Xã Quang Trung', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (168, '07864', 'Xã Hợp Thịnh', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (169, '07840', 'Xã Hiệp Hòa', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (170, '07822', 'Xã Hoàng Vân', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (171, '07870', 'Xã Xuân Cẩm', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (172, '07774', 'Phường Tự Lạn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (173, '07777', 'Phường Việt Yên', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (174, '07795', 'Phường Nếnh', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (175, '07798', 'Phường Vân Hà', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (176, '07735', 'Xã Đồng Việt', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (177, '07210', 'Phường Bắc Giang', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (178, '07228', 'Phường Đa Mai', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (179, '07696', 'Phường Tiền Phong', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (180, '07682', 'Phường Tân An', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (181, '07681', 'Phường Yên Dũng', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (182, '07699', 'Phường Tân Tiến', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (183, '07738', 'Phường Cảnh Thụy', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (184, '09187', 'Phường Kinh Bắc', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (185, '09190', 'Phường Võ Cường', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (186, '09169', 'Phường Vũ Ninh', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (187, '09325', 'Phường Hạp Lĩnh', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (188, '09286', 'Phường Nam Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (189, '09367', 'Phường Từ Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (190, '09370', 'Phường Tam Sơn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (191, '09385', 'Phường Đồng Nguyên', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (192, '09379', 'Phường Phù Khê', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (193, '09400', 'Phường Thuận Thành', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (194, '09409', 'Phường Mão Điền', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (195, '09430', 'Phường Trạm Lộ', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (196, '09427', 'Phường Trí Quả', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (197, '09433', 'Phường Song Liễu', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (198, '09445', 'Phường Ninh Xá', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (199, '09247', 'Phường Quế Võ', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (200, '09265', 'Phường Phương Liễu', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (201, '09253', 'Phường Nhân Hòa', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (202, '09301', 'Phường Đào Viên', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (203, '09295', 'Phường Bồng Lai', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (204, '09313', 'Xã Chi Lăng', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (205, '09292', 'Xã Phù Lãng', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (206, '09193', 'Xã Yên Phong', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (207, '09238', 'Xã Văn Môn', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (208, '09202', 'Xã Tam Giang', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (209, '09205', 'Xã Yên Trung', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (210, '09208', 'Xã Tam Đa', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (211, '09319', 'Xã Tiên Du', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (212, '09334', 'Xã Liên Bão', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (213, '09343', 'Xã Tân Chi', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (214, '09340', 'Xã Đại Đồng', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (215, '09349', 'Xã Phật Tích', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (216, '09454', 'Xã Gia Bình', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (217, '09475', 'Xã Nhân Thắng', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (218, '09469', 'Xã Đại Lai', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (219, '09466', 'Xã Cao Đức', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (220, '09487', 'Xã Đông Cứu', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (221, '09496', 'Xã Lương Tài', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (222, '09529', 'Xã Lâm Thao', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (223, '09523', 'Xã Trung Chính', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (224, '09499', 'Xã Trung Kênh', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (225, '07663', 'Xã Tuấn Đạo', 2)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (226, '07090', 'Phường An Sinh', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (227, '07093', 'Phường Đông Triều', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (228, '07081', 'Phường Bình Khê', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (229, '07069', 'Phường Mạo Khê', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (230, '07114', 'Phường Hoàng Quế', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (231, '06832', 'Phường Yên Tử', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (232, '06820', 'Phường Vàng Danh', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (233, '06811', 'Phường Uông Bí', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (234, '07135', 'Phường Đông Mai', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (235, '07147', 'Phường Hiệp Hòa', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (236, '07132', 'Phường Quảng Yên', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (237, '07168', 'Phường Hà An', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (238, '07183', 'Phường Phong Cốc', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (239, '07180', 'Phường Liên Hòa', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (240, '06706', 'Phường Tuần Châu', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (241, '06661', 'Phường Việt Hưng', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (242, '06673', 'Phường Bãi Cháy', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (243, '06652', 'Phường Hà Tu', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (244, '06676', 'Phường Hà Lầm', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (245, '06658', 'Phường Cao Xanh', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (246, '06685', 'Phường Hồng Gai', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (247, '06688', 'Phường Hạ Long', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (248, '07030', 'Phường Hoành Bồ', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (249, '07054', 'Xã Quảng La', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (250, '07060', 'Xã Thống Nhất', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (251, '06760', 'Phường Mông Dương', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (252, '06778', 'Phường Quang Hanh', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (253, '06793', 'Phường Cẩm Phả', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (254, '06781', 'Phường Cửa Ông', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (255, '06799', 'Xã Hải Hòa', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (256, '06862', 'Xã Tiên Yên', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (257, '06874', 'Xã Điền Xá', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (258, '06877', 'Xã Đông Ngũ', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (259, '06886', 'Xã Hải Lạng', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (260, '06985', 'Xã Lương Minh', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (261, '06979', 'Xã Kỳ Thượng', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (262, '06970', 'Xã Ba Chẽ', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (263, '06913', 'Xã Quảng Tân', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (264, '06895', 'Xã Đầm Hà', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (265, '06922', 'Xã Quảng Hà', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (266, '06946', 'Xã Đường Hoa', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (267, '06931', 'Xã Quảng Đức', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (268, '06841', 'Xã Hoành Mô', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (269, '06856', 'Xã Lục Hồn', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (270, '06838', 'Xã Bình Liêu', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (271, '06724', 'Xã Hải Sơn', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (272, '06733', 'Xã Hải Ninh', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (273, '06757', 'Xã Vĩnh Thực', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (274, '06712', 'Phường Móng Cái 1', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (275, '06709', 'Phường Móng Cái 2', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (276, '06736', 'Phường Móng Cái 3', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (277, '06994', 'Đặc khu Vân Đồn', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (278, '07192', 'Đặc khu Cô Tô', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (279, '06967', 'Xã Cái Chiên', 3)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (280, '11560', 'Phường Thủy Nguyên', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (281, '11557', 'Phường Thiên Hương', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (282, '11533', 'Phường Hòa Bình', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (283, '11542', 'Phường Nam Triệu', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (284, '11473', 'Phường Bạch Đằng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (285, '11488', 'Phường Lưu Kiếm', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (286, '11506', 'Phường Lê Ích Mộc', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (287, '11311', 'Phường Hồng Bàng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (288, '11602', 'Phường Hồng An', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (289, '11329', 'Phường Ngô Quyền', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (290, '11359', 'Phường Gia Viên', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (291, '11383', 'Phường Lê Chân', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (292, '11407', 'Phường An Biên', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (293, '11413', 'Phường Hải An', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (294, '11411', 'Phường Đông Hải', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (295, '11443', 'Phường Kiến An', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (296, '11446', 'Phường Phù Liễn', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (297, '11737', 'Phường Nam Đồ Sơn', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (298, '11455', 'Phường Đồ Sơn', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (299, '11689', 'Phường Hưng Đạo', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (300, '11692', 'Phường Dương Kinh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (301, '11581', 'Phường An Dương', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (302, '11617', 'Phường An Hải', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (303, '11593', 'Phường An Phong', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (304, '11674', 'Xã An Hưng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (305, '11668', 'Xã An Khánh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (306, '11647', 'Xã An Quang', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (307, '11635', 'Xã An Trường', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (308, '11629', 'Xã An Lão', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (309, '11680', 'Xã Kiến Thụy', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (310, '11725', 'Xã Kiến Minh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (311, '11749', 'Xã Kiến Hải', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (312, '11728', 'Xã Kiến Hưng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (313, '11713', 'Xã Nghi Dương', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (314, '11761', 'Xã Quyết Thắng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (315, '11755', 'Xã Tiên Lãng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (316, '11779', 'Xã Tân Minh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (317, '11791', 'Xã Tiên Minh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (318, '11806', 'Xã Chấn Hưng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (319, '11809', 'Xã Hùng Thắng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (320, '11824', 'Xã Vĩnh Bảo', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (321, '11911', 'Xã Nguyễn Bỉnh Khiêm', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (322, '11887', 'Xã Vĩnh Am', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (323, '11875', 'Xã Vĩnh Hải', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (324, '11848', 'Xã Vĩnh Hòa', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (325, '11836', 'Xã Vĩnh Thịnh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (326, '11842', 'Xã Vĩnh Thuận', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (327, '11503', 'Xã Việt Khê', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (328, '11914', 'Đặc khu Cát Hải', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (329, '11948', 'Đặc khu Bạch Long Vĩ', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (330, '10525', 'Phường Hải Dương', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (331, '10532', 'Phường Lê Thanh Nghị', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (332, '10543', 'Phường Việt Hòa', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (333, '10507', 'Phường Thành Đông', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (334, '10837', 'Phường Nam Đồng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (335, '10537', 'Phường Tân Hưng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (336, '11002', 'Phường Thạch Khôi', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (337, '10891', 'Phường Tứ Minh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (338, '10660', 'Phường Ái Quốc', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (339, '10549', 'Phường Chu Văn An', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (340, '10546', 'Phường Chí Linh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (341, '10570', 'Phường Trần Hưng Đạo', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (342, '10552', 'Phường Nguyễn Trãi', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (343, '10573', 'Phường Trần Nhân Tông', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (344, '10603', 'Phường Lê Đại Hành', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (345, '10675', 'Phường Kinh Môn', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (346, '10744', 'Phường Nguyễn Đại Năng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (347, '10729', 'Phường Trần Liễu', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (348, '10678', 'Phường Bắc An Phụ', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (349, '10726', 'Phường Phạm Sư Mạnh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (350, '10714', 'Phường Nhị Chiểu', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (351, '10705', 'Xã Nam An Phụ', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (352, '10606', 'Xã Nam Sách', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (353, '10642', 'Xã Thái Tân', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (354, '10615', 'Xã Hợp Tiến', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (355, '10633', 'Xã Trần Phú', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (356, '10645', 'Xã An Phú', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (357, '10813', 'Xã Thanh Hà', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (358, '10846', 'Xã Hà Tây', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (359, '10816', 'Xã Hà Bắc', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (360, '10843', 'Xã Hà Nam', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (361, '10882', 'Xã Hà Đông', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (362, '10888', 'Xã Cẩm Giang', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (363, '10909', 'Xã Tuệ Tĩnh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (364, '10930', 'Xã Mao Điền', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (365, '10903', 'Xã Cẩm Giàng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (366, '10945', 'Xã Kẻ Sặt', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (367, '10966', 'Xã Bình Giang', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (368, '10972', 'Xã Đường An', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (369, '10993', 'Xã Thượng Hồng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (370, '10999', 'Xã Gia Lộc', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (371, '11020', 'Xã Yết Kiêu', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (372, '11050', 'Xã Gia Phúc', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (373, '11065', 'Xã Trường Tân', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (374, '11074', 'Xã Tứ Kỳ', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (375, '11113', 'Xã Tân Kỳ', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (376, '11086', 'Xã Đại Sơn', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (377, '11131', 'Xã Chí Minh', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (378, '11140', 'Xã Lạc Phượng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (379, '11146', 'Xã Nguyên Giáp', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (380, '11203', 'Xã Ninh Giang', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (381, '11164', 'Xã Vĩnh Lại', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (382, '11224', 'Xã Khúc Thừa Dụ', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (383, '11167', 'Xã Tân An', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (384, '11218', 'Xã Hồng Châu', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (385, '11239', 'Xã Thanh Miện', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (386, '11254', 'Xã Bắc Thanh Miện', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (387, '11257', 'Xã Hải Hưng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (388, '11242', 'Xã Nguyễn Lương Bằng', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (389, '11284', 'Xã Nam Thanh Miện', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (390, '10750', 'Xã Phú Thái', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (391, '10756', 'Xã Lai Khê', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (392, '10792', 'Xã An Thành', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (393, '10804', 'Xã Kim Thành', 4)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (394, '11953', 'Phường Phố Hiến', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (395, '11983', 'Phường Sơn Nam', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (396, '11980', 'Phường Hồng Châu', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (397, '12103', 'Phường Mỹ Hào', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (398, '12133', 'Phường Đường Hào', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (399, '12127', 'Phường Thượng Hồng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (400, '11977', 'Xã Tân Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (401, '12337', 'Xã Hoàng Hoa Thám', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (402, '12364', 'Xã Tiên Lữ', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (403, '12361', 'Xã Tiên Hoa', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (404, '12391', 'Xã Quang Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (405, '12406', 'Xã Đoàn Đào', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (406, '12424', 'Xã Tiên Tiến', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (407, '12427', 'Xã Tống Trân', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (408, '12280', 'Xã Lương Bằng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (409, '12286', 'Xã Nghĩa Dân', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (410, '12322', 'Xã Hiệp Cường', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (411, '12313', 'Xã Đức Hợp', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (412, '12142', 'Xã Ân Thi', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (413, '12166', 'Xã Xuân Trúc', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (414, '12148', 'Xã Phạm Ngũ Lão', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (415, '12184', 'Xã Nguyễn Trãi', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (416, '12196', 'Xã Hồng Quang', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (417, '12205', 'Xã Khoái Châu', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (418, '12223', 'Xã Triệu Việt Vương', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (419, '12238', 'Xã Việt Tiến', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (420, '12271', 'Xã Chí Minh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (421, '12247', 'Xã Châu Ninh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (422, '12073', 'Xã Yên Mỹ', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (423, '12091', 'Xã Việt Yên', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (424, '12070', 'Xã Hoàn Long', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (425, '12064', 'Xã Nguyễn Văn Linh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (426, '12004', 'Xã Như Quỳnh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (427, '11992', 'Xã Lạc Đạo', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (428, '11995', 'Xã Đại Đồng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (429, '12031', 'Xã Nghĩa Trụ', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (430, '12025', 'Xã Phụng Công', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (431, '12019', 'Xã Văn Giang', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (432, '12049', 'Xã Mễ Sở', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (433, '13225', 'Phường Thái Bình', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (434, '12454', 'Phường Trần Lãm', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (435, '12452', 'Phường Trần Hưng Đạo', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (436, '12817', 'Phường Trà Lý', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (437, '12466', 'Phường Vũ Phúc', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (438, '12826', 'Xã Thái Thụy', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (439, '12862', 'Xã Đông Thụy Anh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (440, '12859', 'Xã Bắc Thụy Anh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (441, '12865', 'Xã Thụy Anh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (442, '12904', 'Xã Nam Thụy Anh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (443, '12916', 'Xã Bắc Thái Ninh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (444, '12922', 'Xã Thái Ninh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (445, '12943', 'Xã Đông Thái Ninh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (446, '12961', 'Xã Nam Thái Ninh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (447, '12919', 'Xã Tây Thái Ninh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (448, '12850', 'Xã Tây Thụy Anh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (449, '12970', 'Xã Tiền Hải', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (450, '13039', 'Xã Tây Tiền Hải', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (451, '13021', 'Xã Ái Quốc', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (452, '13003', 'Xã Đồng Châu', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (453, '12988', 'Xã Đông Tiền Hải', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (454, '13057', 'Xã Nam Cường', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (455, '13066', 'Xã Hưng Phú', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (456, '13063', 'Xã Nam Tiền Hải', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (457, '12472', 'Xã Quỳnh Phụ', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (458, '12511', 'Xã Minh Thọ', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (459, '12532', 'Xã Nguyễn Du', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (460, '12577', 'Xã Quỳnh An', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (461, '12517', 'Xã Ngọc Lâm', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (462, '12526', 'Xã Đồng Bằng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (463, '12499', 'Xã A Sào', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (464, '12523', 'Xã Phụ Dực', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (465, '12583', 'Xã Tân Tiến', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (466, '12586', 'Xã Hưng Hà', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (467, '12634', 'Xã Tiên La', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (468, '12676', 'Xã Lê Quý Đôn', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (469, '12685', 'Xã Hồng Minh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (470, '12631', 'Xã Thần Khê', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (471, '12619', 'Xã Diên Hà', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (472, '12595', 'Xã Ngự Thiên', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (473, '12613', 'Xã Long Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (474, '12688', 'Xã Đông Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (475, '12700', 'Xã Bắc Tiên Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (476, '12736', 'Xã Đông Tiên Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (477, '12775', 'Xã Nam Đông Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (478, '12745', 'Xã Bắc Đông Quan', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (479, '12694', 'Xã Bắc Đông Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (480, '12793', 'Xã Đông Quan', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (481, '12763', 'Xã Nam Tiên Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (482, '12754', 'Xã Tiên Hưng', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (483, '13120', 'Xã Lê Lợi', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (484, '13075', 'Xã Kiến Xương', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (485, '13132', 'Xã Quang Lịch', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (486, '13141', 'Xã Vũ Quý', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (487, '13183', 'Xã Bình Thanh', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (488, '13186', 'Xã Bình Định', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (489, '13159', 'Xã Hồng Vũ', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (490, '13096', 'Xã Bình Nguyên', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (491, '13093', 'Xã Trà Giang', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (492, '13192', 'Xã Vũ Thư', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (493, '13222', 'Xã Thư Trì', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (494, '13246', 'Xã Tân Thuận', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (495, '13264', 'Xã Thư Vũ', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (496, '13279', 'Xã Vũ Tiên', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (497, '13219', 'Xã Vạn Xuân', 5)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (498, '13966', 'Xã Nam Trực', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (499, '14011', 'Xã Nam Minh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (500, '14014', 'Xã Nam Đồng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (501, '14005', 'Xã Nam Ninh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (502, '13987', 'Xã Nam Hồng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (503, '13750', 'Xã Minh Tân', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (504, '13753', 'Xã Hiển Khánh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (505, '13741', 'Xã Vụ Bản', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (506, '13786', 'Xã Liên Minh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (507, '13795', 'Xã Ý Yên', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (508, '13879', 'Xã Yên Đồng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (509, '13870', 'Xã Yên Cường', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (510, '13864', 'Xã Vạn Thắng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (511, '13834', 'Xã Vũ Dương', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (512, '13807', 'Xã Tân Minh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (513, '13822', 'Xã Phong Doanh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (514, '14026', 'Xã Cổ Lễ', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (515, '14038', 'Xã Ninh Giang', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (516, '14056', 'Xã Cát Thành', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (517, '14053', 'Xã Trực Ninh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (518, '14062', 'Xã Quang Hưng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (519, '14071', 'Xã Minh Thái', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (520, '14077', 'Xã Ninh Cường', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (521, '14089', 'Xã Xuân Trường', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (522, '14122', 'Xã Xuân Hưng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (523, '14104', 'Xã Xuân Giang', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (524, '14095', 'Xã Xuân Hồng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (525, '14215', 'Xã Hải Hậu', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (526, '14236', 'Xã Hải Anh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (527, '14218', 'Xã Hải Tiến', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (528, '14248', 'Xã Hải Hưng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (529, '14281', 'Xã Hải An', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (530, '14287', 'Xã Hải Quang', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (531, '14308', 'Xã Hải Xuân', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (532, '14221', 'Xã Hải Thịnh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (533, '14161', 'Xã Giao Minh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (534, '14182', 'Xã Giao Hòa', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (535, '14167', 'Xã Giao Thủy', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (536, '14203', 'Xã Giao Phúc', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (537, '14179', 'Xã Giao Hưng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (538, '14194', 'Xã Giao Bình', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (539, '14212', 'Xã Giao Ninh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (540, '13900', 'Xã Đồng Thịnh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (541, '13891', 'Xã Nghĩa Hưng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (542, '13918', 'Xã Nghĩa Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (543, '13927', 'Xã Hồng Phong', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (544, '13939', 'Xã Quỹ Nhất', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (545, '13957', 'Xã Nghĩa Lâm', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (546, '13894', 'Xã Rạng Đông', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (547, '13669', 'Phường Nam Định', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (548, '13684', 'Phường Thiên Trường', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (549, '13693', 'Phường Đông A', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (550, '13972', 'Phường Vị Khê', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (551, '13699', 'Phường Thành Nam', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (552, '13777', 'Phường Trường Thi', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (553, '13984', 'Phường Hồng Quang', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (554, '13708', 'Phường Mỹ Lộc', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (555, '13504', 'Xã Bình Lục', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (556, '13501', 'Xã Bình Mỹ', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (557, '13540', 'Xã Bình An', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (558, '13531', 'Xã Bình Giang', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (559, '13558', 'Xã Bình Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (560, '13456', 'Xã Liêm Hà', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (561, '13474', 'Xã Tân Thanh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (562, '13483', 'Xã Thanh Bình', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (563, '13489', 'Xã Thanh Lâm', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (564, '13495', 'Xã Thanh Liêm', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (565, '13573', 'Xã Lý Nhân', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (566, '13591', 'Xã Nam Xang', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (567, '13579', 'Xã Bắc Lý', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (568, '13597', 'Xã Vĩnh Trụ', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (569, '13594', 'Xã Trần Thương', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (570, '13609', 'Xã Nhân Hà', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (571, '13627', 'Xã Nam Lý', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (572, '13366', 'Phường Hà Nam', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (573, '13285', 'Phường Phủ Lý', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (574, '13291', 'Phường Phù Vân', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (575, '13318', 'Phường Châu Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (576, '13444', 'Phường Liêm Tuyền', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (577, '13324', 'Phường Duy Tiên', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (578, '13330', 'Phường Duy Tân', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (579, '13348', 'Phường Đồng Văn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (580, '13336', 'Phường Duy Hà', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (581, '13363', 'Phường Tiên Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (582, '13393', 'Phường Lê Hồ', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (583, '13396', 'Phường Nguyễn Uý', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (584, '13435', 'Phường Lý Thường Kiệt', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (585, '13402', 'Phường Kim Thanh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (586, '13420', 'Phường Tam Chúc', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (587, '13384', 'Phường Kim Bảng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (588, '14464', 'Xã Gia Viễn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (589, '14500', 'Xã Đại Hoàng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (590, '14482', 'Xã Gia Hưng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (591, '14524', 'Xã Gia Phong', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (592, '14488', 'Xã Gia Vân', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (593, '14494', 'Xã Gia Trấn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (594, '14428', 'Xã Nho Quan', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (595, '14389', 'Xã Gia Lâm', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (596, '14401', 'Xã Gia Tường', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (597, '14407', 'Xã Phú Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (598, '14404', 'Xã Cúc Phương', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (599, '14458', 'Xã Phú Long', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (600, '14434', 'Xã Thanh Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (601, '14452', 'Xã Quỳnh Lưu', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (602, '14560', 'Xã Yên Khánh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (603, '14611', 'Xã Khánh Nhạc', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (604, '14563', 'Xã Khánh Thiện', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (605, '14614', 'Xã Khánh Hội', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (606, '14608', 'Xã Khánh Trung', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (607, '14701', 'Xã Yên Mô', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (608, '14728', 'Xã Yên Từ', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (609, '14743', 'Xã Yên Mạc', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (610, '14746', 'Xã Đồng Thái', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (611, '14653', 'Xã Chất Bình', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (612, '14638', 'Xã Kim Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (613, '14647', 'Xã Quang Thiện', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (614, '14620', 'Xã Phát Diệm', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (615, '14674', 'Xã Lai Thành', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (616, '14677', 'Xã Định Hóa', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (617, '14623', 'Xã Bình Minh', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (618, '14698', 'Xã Kim Đông', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (619, '14533', 'Phường Tây Hoa Lư', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (620, '14329', 'Phường Hoa Lư', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (621, '14359', 'Phường Nam Hoa Lư', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (622, '14566', 'Phường Đông Hoa Lư', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (623, '14362', 'Phường Tam Điệp', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (624, '14371', 'Phường Yên Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (625, '14365', 'Phường Trung Sơn', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (626, '14725', 'Phường Yên Thắng', 6)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (627, '01273', 'Phường Thục Phán', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (628, '01279', 'Phường Nùng Trí Cao', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (629, '01288', 'Phường Tân Giang', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (630, '01304', 'Xã Quảng Lâm', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (631, '01297', 'Xã Nam Quang', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (632, '01294', 'Xã Lý Bôn', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (633, '01290', 'Xã Bảo Lâm', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (634, '01318', 'Xã Yên Thổ', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (635, '01360', 'Xã Sơn Lộ', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (636, '01351', 'Xã Hưng Đạo', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (637, '01321', 'Xã Bảo Lạc', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (638, '01324', 'Xã Cốc Pàng', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (639, '01327', 'Xã Cô Ba', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (640, '01336', 'Xã Khánh Xuân', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (641, '01339', 'Xã Xuân Trường', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (642, '01354', 'Xã Huy Giáp', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (643, '01738', 'Xã Ca Thành', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (644, '01768', 'Xã Phan Thanh', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (645, '01777', 'Xã Thành Công', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (646, '01729', 'Xã Tĩnh Túc', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (647, '01774', 'Xã Tam Kim', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (648, '01726', 'Xã Nguyên Bình', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (649, '01747', 'Xã Minh Tâm', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (650, '01387', 'Xã Thanh Long', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (651, '01366', 'Xã Cần Yên', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (652, '01363', 'Xã Thông Nông', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (653, '01392', 'Xã Trường Hà', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (654, '01438', 'Xã Hà Quảng', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (655, '01393', 'Xã Lũng Nặm', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (656, '01414', 'Xã Tổng Cọt', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (657, '01660', 'Xã Nam Tuấn', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (658, '01654', 'Xã Hòa An', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (659, '01708', 'Xã Bạch Đằng', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (660, '01699', 'Xã Nguyễn Huệ', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (661, '01795', 'Xã Minh Khai', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (662, '01789', 'Xã Canh Tân', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (663, '01792', 'Xã Kim Đồng', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (664, '01807', 'Xã Thạch An', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (665, '01786', 'Xã Đông Khê', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (666, '01822', 'Xã Đức Long', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (667, '01648', 'Xã Phục Hòa', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (668, '01636', 'Xã Bế Văn Đàn', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (669, '01594', 'Xã Độc Lập', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (670, '01576', 'Xã Quảng Uyên', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (671, '01618', 'Xã Hạnh Phúc', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (672, '01456', 'Xã Quang Hán', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (673, '01447', 'Xã Trà Lĩnh', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (674, '01465', 'Xã Quang Trung', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (675, '01525', 'Xã Đoài Dương', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (676, '01477', 'Xã Trùng Khánh', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (677, '01501', 'Xã Đàm Thủy', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (678, '01489', 'Xã Đình Phong', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (679, '01537', 'Xã Lý Quốc', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (680, '01558', 'Xã Hạ Lang', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (681, '01561', 'Xã Vinh Quý', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (682, '01552', 'Xã Quang Long', 7)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (683, '02269', 'Xã Thượng Lâm', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (684, '02266', 'Xã Lâm Bình', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (685, '02302', 'Xã Minh Quang', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (686, '02296', 'Xã Bình An', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (687, '02245', 'Xã Côn Lôn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (688, '02248', 'Xã Yên Hoa', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (689, '02239', 'Xã Thượng Nông', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (690, '02260', 'Xã Hồng Thái', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (691, '02221', 'Xã Nà Hang', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (692, '02308', 'Xã Tân Mỹ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (693, '02317', 'Xã Yên Lập', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (694, '02320', 'Xã Tân An', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (695, '02287', 'Xã Chiêm Hoá', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (696, '02353', 'Xã Hòa An', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (697, '02332', 'Xã Kiên Đài', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (698, '02359', 'Xã Tri Phú', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (699, '02350', 'Xã Kim Bình', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (700, '02365', 'Xã Yên Nguyên', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (701, '02305', 'Xã Trung Hà', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (702, '02398', 'Xã Yên Phú', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (703, '02380', 'Xã Bạch Xa', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (704, '02392', 'Xã Phù Lưu', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (705, '02374', 'Xã Hàm Yên', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (706, '02404', 'Xã Bình Xa', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (707, '02407', 'Xã Thái Sơn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (708, '02419', 'Xã Thái Hòa', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (709, '02425', 'Xã Hùng Đức', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (710, '02455', 'Xã Hùng Lợi', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (711, '02458', 'Xã Trung Sơn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (712, '02494', 'Xã Thái Bình', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (713, '02470', 'Xã Tân Long', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (714, '02449', 'Xã Xuân Vân', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (715, '02434', 'Xã Lực Hành', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (716, '02473', 'Xã Yên Sơn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (717, '02530', 'Xã Nhữ Khê', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (718, '02437', 'Xã Kiến Thiết', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (719, '02545', 'Xã Tân Trào', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (720, '02554', 'Xã Minh Thanh', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (721, '02536', 'Xã Sơn Dương', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (722, '02548', 'Xã Bình Ca', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (723, '02578', 'Xã Tân Thanh', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (724, '02620', 'Xã Sơn Thủy', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (725, '02611', 'Xã Phú Lương', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (726, '02623', 'Xã Trường Sinh', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (727, '02608', 'Xã Hồng Sơn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (728, '02572', 'Xã Đông Thọ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (729, '02509', 'Phường Mỹ Lâm', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (730, '02215', 'Phường Minh Xuân', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (731, '02212', 'Phường Nông Tiến', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (732, '02512', 'Phường An Tường', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (733, '02524', 'Phường Bình Thuận', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (734, '00715', 'Xã Lũng Cú', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (735, '00721', 'Xã Đồng Văn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (736, '00733', 'Xã Sà Phìn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (737, '00745', 'Xã Phố Bảng', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (738, '00763', 'Xã Lũng Phìn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (739, '00787', 'Xã Sủng Máng', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (740, '00778', 'Xã Sơn Vĩ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (741, '00769', 'Xã Mèo Vạc', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (742, '00802', 'Xã Khâu Vai', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (743, '00817', 'Xã Niêm Sơn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (744, '00808', 'Xã Tát Ngà', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (745, '00829', 'Xã Thắng Mố', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (746, '00832', 'Xã Bạch Đích', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (747, '00820', 'Xã Yên Minh', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (748, '00847', 'Xã Mậu Duệ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (749, '00859', 'Xã Ngọc Long', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (750, '00871', 'Xã Du Già', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (751, '00865', 'Xã Đường Thượng', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (752, '00901', 'Xã Lùng Tám', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (753, '00883', 'Xã Cán Tỷ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (754, '00889', 'Xã Nghĩa Thuận', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (755, '00874', 'Xã Quản Bạ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (756, '00892', 'Xã Tùng Vài', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (757, '01006', 'Xã Yên Cường', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (758, '01012', 'Xã Đường Hồng', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (759, '00991', 'Xã Bắc Mê', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (760, '00985', 'Xã Giáp Trung', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (761, '00982', 'Xã Minh Sơn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (762, '00994', 'Xã Minh Ngọc', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (763, '00700', 'Xã Ngọc Đường', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (764, '00694', 'Phường Hà Giang 1', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (765, '00691', 'Phường Hà Giang 2', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (766, '00937', 'Xã Lao Chải', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (767, '00928', 'Xã Thanh Thủy', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (768, '00919', 'Xã Minh Tân', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (769, '00922', 'Xã Thuận Hòa', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (770, '00925', 'Xã Tùng Bá', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (771, '00706', 'Xã Phú Linh', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (772, '00970', 'Xã Linh Hồ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (773, '00976', 'Xã Bạch Ngọc', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (774, '00913', 'Xã Vị Xuyên', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (775, '00967', 'Xã Việt Lâm', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (776, '00952', 'Xã Cao Bồ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (777, '00958', 'Xã Thượng Sơn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (778, '01171', 'Xã Tân Quang', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (779, '01165', 'Xã Đồng Tâm', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (780, '01192', 'Xã Liên Hiệp', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (781, '01180', 'Xã Bằng Hành', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (782, '01153', 'Xã Bắc Quang', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (783, '01201', 'Xã Hùng An', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (784, '01156', 'Xã Vĩnh Tuy', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (785, '01216', 'Xã Đồng Yên', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (786, '01261', 'Xã Tiên Yên', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (787, '01255', 'Xã Xuân Giang', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (788, '01246', 'Xã Bằng Lang', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (789, '01234', 'Xã Yên Thành', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (790, '01237', 'Xã Quang Bình', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (791, '01243', 'Xã Tân Trịnh', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (792, '01225', 'Xã Tiên Nguyên', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (793, '01090', 'Xã Thông Nguyên', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (794, '01084', 'Xã Hồ Thầu', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (795, '01075', 'Xã Nậm Dịch', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (796, '01051', 'Xã Tân Tiến', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (797, '01021', 'Xã Hoàng Su Phì', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (798, '01033', 'Xã Thàng Tín', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (799, '01024', 'Xã Bản Máy', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (800, '01057', 'Xã Pờ Ly Ngài', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (801, '01108', 'Xã Xín Mần', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (802, '01096', 'Xã Pà Vầy Sủ', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (803, '01141', 'Xã Nấm Dẩn', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (804, '01117', 'Xã Trung Thịnh', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (805, '01144', 'Xã Quảng Nguyên', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (806, '01147', 'Xã Khuôn Lùng', 8)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (807, '04465', 'Xã Khao Mang', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (808, '04456', 'Xã Mù Cang Chải', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (809, '04492', 'Xã Púng Luông', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (810, '04630', 'Xã Tú Lệ', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (811, '04606', 'Xã Trạm Tấu', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (812, '04585', 'Xã Hạnh Phúc', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (813, '04609', 'Xã Phình Hồ', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (814, '04288', 'Phường Nghĩa Lộ', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (815, '04663', 'Phường Trung Tâm', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (816, '04681', 'Phường Cầu Thia', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (817, '04660', 'Xã Liên Sơn', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (818, '04636', 'Xã Gia Hội', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (819, '04651', 'Xã Sơn Lương', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (820, '04705', 'Xã Thượng Bằng La', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (821, '04699', 'Xã Chấn Thịnh', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (822, '04711', 'Xã Nghĩa Tâm', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (823, '04672', 'Xã Văn Chấn', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (824, '04402', 'Xã Phong Dụ Hạ', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (825, '04387', 'Xã Châu Quế', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (826, '04381', 'Xã Lâm Giang', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (827, '04399', 'Xã Đông Cuông', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (828, '04429', 'Xã Tân Hợp', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (829, '04375', 'Xã Mậu A', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (830, '04441', 'Xã Xuân Ái', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (831, '04450', 'Xã Mỏ Vàng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (832, '04309', 'Xã Lâm Thượng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (833, '04303', 'Xã Lục Yên', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (834, '04336', 'Xã Tân Lĩnh', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (835, '04342', 'Xã Khánh Hòa', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (836, '04363', 'Xã Phúc Lợi', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (837, '04345', 'Xã Mường Lai', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (838, '04726', 'Xã Cảm Nhân', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (839, '04744', 'Xã Yên Thành', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (840, '04717', 'Xã Thác Bà', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (841, '04714', 'Xã Yên Bình', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (842, '04750', 'Xã Bảo Ái', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (843, '04279', 'Phường Văn Phú', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (844, '04252', 'Phường Yên Bái', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (845, '04273', 'Phường Nam Cường', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (846, '04543', 'Phường Âu Lâu', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (847, '04498', 'Xã Trấn Yên', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (848, '04576', 'Xã Hưng Khánh', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (849, '04537', 'Xã Lương Thịnh', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (850, '04564', 'Xã Việt Hồng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (851, '04531', 'Xã Quy Mông', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (852, '04474', 'Xã Lao Chải', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (853, '04489', 'Xã Chế Tạo', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (854, '04462', 'Xã Nậm Có', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (855, '04603', 'Xã Tà Xi Láng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (856, '04423', 'Xã Phong Dụ Thượng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (857, '04693', 'Xã Cát Thịnh', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (858, '02902', 'Xã Phong Hải', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (859, '02926', 'Xã Xuân Quang', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (860, '02905', 'Xã Bảo Thắng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (861, '02908', 'Xã Tằng Loỏng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (862, '02923', 'Xã Gia Phú', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (863, '02746', 'Xã Cốc San', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (864, '02680', 'Xã Hợp Thành', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (865, '02671', 'Phường Cam Đường', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (866, '02647', 'Phường Lào Cai', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (867, '02728', 'Xã Mường Hum', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (868, '02707', 'Xã Dền Sáng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (869, '02701', 'Xã Y Tý', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (870, '02686', 'Xã A Mú Sung', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (871, '02695', 'Xã Trịnh Tường', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (872, '02725', 'Xã Bản Xèo', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (873, '02683', 'Xã Bát Xát', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (874, '02953', 'Xã Nghĩa Đô', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (875, '02968', 'Xã Thượng Hà', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (876, '02947', 'Xã Bảo Yên', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (877, '02962', 'Xã Xuân Hòa', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (878, '02998', 'Xã Phúc Khánh', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (879, '02989', 'Xã Bảo Hà', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (880, '03061', 'Xã Võ Lao', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (881, '03103', 'Xã Khánh Yên', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (882, '03082', 'Xã Văn Bàn', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (883, '03106', 'Xã Dương Quỳ', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (884, '03091', 'Xã Chiềng Ken', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (885, '03121', 'Xã Minh Lương', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (886, '03076', 'Xã Nậm Chày', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (887, '03043', 'Xã Mường Bo', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (888, '03046', 'Xã Bản Hồ', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (889, '03013', 'Xã Tả Phìn', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (890, '03037', 'Xã Tả Van', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (891, '03006', 'Phường Sa Pa', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (892, '02896', 'Xã Cốc Lầu', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (893, '02890', 'Xã Bảo Nhai', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (894, '02869', 'Xã Bản Liền', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (895, '02839', 'Xã Bắc Hà', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (896, '02842', 'Xã Tả Củ Tỷ', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (897, '02848', 'Xã Lùng Phình', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (898, '02752', 'Xã Pha Long', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (899, '02761', 'Xã Mường Khương', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (900, '02788', 'Xã Bản Lầu', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (901, '02782', 'Xã Cao Sơn', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (902, '02809', 'Xã Si Ma Cai', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (903, '02824', 'Xã Sín Chéng', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (904, '03085', 'Xã Nậm Xé', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (905, '03004', 'Xã Ngũ Chỉ Sơn', 9)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (906, '05443', 'Phường Phan Đình Phùng', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (907, '05710', 'Phường Linh Sơn', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (908, '05500', 'Phường Tích Lương', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (909, '05467', 'Phường Gia Sàng', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (910, '05455', 'Phường Quyết Thắng', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (911, '05482', 'Phường Quan Triều', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (912, '05503', 'Xã Tân Cương', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (913, '05488', 'Xã Đại Phúc', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (914, '05830', 'Xã Đại Từ', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (915, '05776', 'Xã Đức Lương', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (916, '05800', 'Xã Phú Thịnh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (917, '05818', 'Xã La Bằng', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (918, '05788', 'Xã Phú Lạc', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (919, '05809', 'Xã An Khánh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (920, '05851', 'Xã Quân Chu', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (921, '05845', 'Xã Vạn Phú', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (922, '05773', 'Xã Phú Xuyên', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (923, '05860', 'Phường Phổ Yên', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (924, '05890', 'Phường Vạn Xuân', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (925, '05899', 'Phường Trung Thành', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (926, '05857', 'Phường Phúc Thuận', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (927, '05881', 'Xã Thành Công', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (928, '05908', 'Xã Phú Bình', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (929, '05923', 'Xã Tân Thành', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (930, '05941', 'Xã Điềm Thụy', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (931, '05953', 'Xã Kha Sơn', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (932, '05917', 'Xã Tân Khánh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (933, '05692', 'Xã Đồng Hỷ', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (934, '05674', 'Xã Quang Sơn', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (935, '05662', 'Xã Trại Cau', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (936, '05707', 'Xã Nam Hòa', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (937, '05680', 'Xã Văn Hán', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (938, '05665', 'Xã Văn Lăng', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (939, '05518', 'Phường Sông Công', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (940, '05533', 'Phường Bá Xuyên', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (941, '05528', 'Phường Bách Quang', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (942, '05611', 'Xã Phú Lương', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (943, '05641', 'Xã Vô Tranh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (944, '05620', 'Xã Yên Trạch', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (945, '05632', 'Xã Hợp Thành', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (946, '05569', 'Xã Định Hóa', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (947, '05587', 'Xã Bình Yên', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (948, '05581', 'Xã Trung Hội', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (949, '05563', 'Xã Phượng Tiến', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (950, '05602', 'Xã Phú Đình', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (951, '05605', 'Xã Bình Thành', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (952, '05551', 'Xã Kim Phượng', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (953, '05542', 'Xã Lam Vỹ', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (954, '05716', 'Xã Võ Nhai', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (955, '05755', 'Xã Dân Tiến', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (956, '05722', 'Xã Nghinh Tường', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (957, '05725', 'Xã Thần Sa', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (958, '05740', 'Xã La Hiên', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (959, '05746', 'Xã Tràng Xá', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (960, '05719', 'Xã Sảng Mộc', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (961, '01864', 'Xã Bằng Thành', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (962, '01882', 'Xã Nghiên Loan', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (963, '01879', 'Xã Cao Minh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (964, '01906', 'Xã Ba Bể', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (965, '01912', 'Xã Chợ Rã', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (966, '01894', 'Xã Phúc Lộc', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (967, '01921', 'Xã Thượng Minh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (968, '01933', 'Xã Đồng Phúc', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (969, '02116', 'Xã Yên Bình', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (970, '01942', 'Xã Bằng Vân', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (971, '01954', 'Xã Ngân Sơn', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (972, '01936', 'Xã Nà Phặc', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (973, '01960', 'Xã Hiệp Lực', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (974, '02026', 'Xã Nam Cường', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (975, '02038', 'Xã Quảng Bạch', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (976, '02044', 'Xã Yên Thịnh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (977, '02020', 'Xã Chợ Đồn', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (978, '02083', 'Xã Yên Phong', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (979, '02071', 'Xã Nghĩa Tá', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (980, '01969', 'Xã Phủ Thông', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (981, '02008', 'Xã Cẩm Giàng', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (982, '01981', 'Xã Vĩnh Thông', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (983, '02014', 'Xã Bạch Thông', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (984, '01849', 'Xã Phong Quang', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (985, '01840', 'Phường Đức Xuân', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (986, '01843', 'Phường Bắc Kạn', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (987, '02143', 'Xã Văn Lang', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (988, '02152', 'Xã Cường Lợi', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (989, '02155', 'Xã Na Rì', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (990, '02176', 'Xã Trần Phú', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (991, '02185', 'Xã Côn Minh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (992, '02191', 'Xã Xuân Dương', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (993, '02104', 'Xã Tân Kỳ', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (994, '02101', 'Xã Thanh Mai', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (995, '02107', 'Xã Thanh Thịnh', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (996, '02086', 'Xã Chợ Mới', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (997, '01957', 'Xã Thượng Quan', 10)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (998, '06040', 'Xã Thất Khê', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (999, '06001', 'Xã Đoàn Kết', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1000, '06019', 'Xã Tân Tiến', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1001, '06046', 'Xã Tràng Định', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1002, '06004', 'Xã Quốc Khánh', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1003, '06037', 'Xã Kháng Chiến', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1004, '06058', 'Xã Quốc Việt', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1005, '06112', 'Xã Bình Gia', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1006, '06115', 'Xã Tân Văn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1007, '06079', 'Xã Hồng Phong', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1008, '06073', 'Xã Hoa Thám', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1009, '06076', 'Xã Quý Hòa', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1010, '06085', 'Xã Thiện Hòa', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1011, '06091', 'Xã Thiện Thuật', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1012, '06103', 'Xã Thiện Long', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1013, '06325', 'Xã Bắc Sơn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1014, '06349', 'Xã Hưng Vũ', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1015, '06367', 'Xã Vũ Lăng', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1016, '06376', 'Xã Nhất Hòa', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1017, '06364', 'Xã Vũ Lễ', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1018, '06337', 'Xã Tân Tri', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1019, '06253', 'Xã Văn Quan', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1020, '06280', 'Xã Điềm He', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1021, '06313', 'Xã Tri Lễ', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1022, '06298', 'Xã Yên Phúc', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1023, '06316', 'Xã Tân Đoàn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1024, '06286', 'Xã Khánh Khê', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1025, '06124', 'Xã Na Sầm', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1026, '06154', 'Xã Văn Lãng', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1027, '06151', 'Xã Hội Hoan', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1028, '06148', 'Xã Thụy Hùng', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1029, '06172', 'Xã Hoàng Văn Thụ', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1030, '06529', 'Xã Lộc Bình', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1031, '06541', 'Xã Mẫu Sơn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1032, '06526', 'Xã Na Dương', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1033, '06601', 'Xã Lợi Bác', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1034, '06577', 'Xã Thống Nhất', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1035, '06607', 'Xã Xuân Dương', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1036, '06565', 'Xã Khuất Xá', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1037, '06613', 'Xã Đình Lập', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1038, '06637', 'Xã Châu Sơn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1039, '06625', 'Xã Kiên Mộc', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1040, '06616', 'Xã Thái Bình', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1041, '06385', 'Xã Hữu Lũng', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1042, '06457', 'Xã Tuấn Sơn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1043, '06445', 'Xã Tân Thành', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1044, '06415', 'Xã Vân Nham', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1045, '06436', 'Xã Thiện Tân', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1046, '06391', 'Xã Yên Bình', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1047, '06400', 'Xã Hữu Liên', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1048, '06427', 'Xã Cai Kinh', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1049, '06463', 'Xã Chi Lăng', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1050, '06496', 'Xã Nhân Lý', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1051, '06481', 'Xã Chiến Thắng', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1052, '06517', 'Xã Quan Sơn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1053, '06475', 'Xã Bằng Mạc', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1054, '06505', 'Xã Vạn Linh', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1055, '06184', 'Xã Đồng Đăng', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1056, '06211', 'Xã Cao Lộc', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1057, '06220', 'Xã Công Sơn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1058, '06196', 'Xã Ba Sơn', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1059, '05986', 'Phường Tam Thanh', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1060, '05983', 'Phường Lương Văn Tri', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1061, '06187', 'Phường Kỳ Lừa', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1062, '05977', 'Phường Đông Kinh', 11)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1063, '08824', 'Xã Tam Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1064, '08848', 'Xã Sông Lô', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1065, '08782', 'Xã Hải Lựu', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1066, '08773', 'Xã Yên Lãng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1067, '08761', 'Xã Lập Thạch', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1068, '08842', 'Xã Tiên Lữ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1069, '08788', 'Xã Thái Hòa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1070, '08812', 'Xã Liên Hòa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1071, '08770', 'Xã Hợp Lý', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1072, '08866', 'Xã Sơn Đông', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1073, '08911', 'Xã Tam Đảo', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1074, '08923', 'Xã Đại Đình', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1075, '08914', 'Xã Đạo Trù', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1076, '08869', 'Xã Tam Dương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1077, '08905', 'Xã Hội Thịnh', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1078, '08896', 'Xã Hoàng An', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1079, '08872', 'Xã Tam Dương Bắc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1080, '09076', 'Xã Vĩnh Tường', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1081, '09112', 'Xã Thổ Tang', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1082, '09100', 'Xã Vĩnh Hưng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1083, '09079', 'Xã Vĩnh An', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1084, '09154', 'Xã Vĩnh Phú', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1085, '09106', 'Xã Vĩnh Thành', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1086, '09025', 'Xã Yên Lạc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1087, '09040', 'Xã Tề Lỗ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1088, '09064', 'Xã Liên Châu', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1089, '09043', 'Xã Tam Hồng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1090, '09052', 'Xã Nguyệt Đức', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1091, '08935', 'Xã Bình Nguyên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1092, '08971', 'Xã Xuân Lãng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1093, '08950', 'Xã Bình Xuyên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1094, '08944', 'Xã Bình Tuyền', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1095, '08716', 'Phường Vĩnh Phúc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1096, '08707', 'Phường Vĩnh Yên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1097, '08740', 'Phường Phúc Yên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1098, '08746', 'Phường Xuân Hòa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1099, '07900', 'Phường Việt Trì', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1100, '07894', 'Phường Nông Trang', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1101, '07909', 'Phường Thanh Miếu', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1102, '07918', 'Phường Vân Phú', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1103, '08515', 'Xã Hy Cương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1104, '08494', 'Xã Lâm Thao', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1105, '08500', 'Xã Xuân Lũng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1106, '08521', 'Xã Phùng Nguyên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1107, '08527', 'Xã Bản Nguyên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1108, '07954', 'Phường Phong Châu', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1109, '07942', 'Phường Phú Thọ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1110, '07948', 'Phường Âu Cơ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1111, '08230', 'Xã Phù Ninh', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1112, '08254', 'Xã Dân Chủ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1113, '08236', 'Xã Phú Mỹ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1114, '08245', 'Xã Trạm Thản', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1115, '08275', 'Xã Bình Phú', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1116, '08152', 'Xã Thanh Ba', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1117, '08173', 'Xã Quảng Yên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1118, '08203', 'Xã Hoàng Cương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1119, '08209', 'Xã Đông Thành', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1120, '08218', 'Xã Chí Tiên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1121, '08227', 'Xã Liên Minh', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1122, '07969', 'Xã Đoan Hùng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1123, '08023', 'Xã Tây Cốc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1124, '08038', 'Xã Chân Mộng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1125, '07999', 'Xã Chí Đám', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1126, '07996', 'Xã Bằng Luân', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1127, '08053', 'Xã Hạ Hòa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1128, '08071', 'Xã Đan Thượng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1129, '08113', 'Xã Yên Kỳ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1130, '08143', 'Xã Vĩnh Chân', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1131, '08134', 'Xã Văn Lang', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1132, '08110', 'Xã Hiền Lương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1133, '08341', 'Xã Cẩm Khê', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1134, '08398', 'Xã Phú Khê', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1135, '08416', 'Xã Hùng Việt', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1136, '08431', 'Xã Đồng Lương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1137, '08344', 'Xã Tiên Lương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1138, '08377', 'Xã Vân Bán', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1139, '08434', 'Xã Tam Nông', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1140, '08479', 'Xã Thọ Văn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1141, '08467', 'Xã Vạn Xuân', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1142, '08443', 'Xã Hiền Quan', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1143, '08674', 'Xã Thanh Thủy', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1144, '08662', 'Xã Đào Xá', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1145, '08686', 'Xã Tu Vũ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1146, '08542', 'Xã Thanh Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1147, '08584', 'Xã Võ Miếu', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1148, '08611', 'Xã Văn Miếu', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1149, '08614', 'Xã Cự Đồng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1150, '08632', 'Xã Hương Cần', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1151, '08656', 'Xã Yên Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1152, '08635', 'Xã Khả Cửu', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1153, '08566', 'Xã Tân Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1154, '08593', 'Xã Minh Đài', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1155, '08560', 'Xã Lai Đồng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1156, '08545', 'Xã Thu Cúc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1157, '08590', 'Xã Xuân Đài', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1158, '08620', 'Xã Long Cốc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1159, '08290', 'Xã Yên Lập', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1160, '08323', 'Xã Thượng Long', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1161, '08296', 'Xã Sơn Lương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1162, '08305', 'Xã Xuân Viên', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1163, '08338', 'Xã Minh Hòa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1164, '08311', 'Xã Trung Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1165, '05089', 'Xã Cao Phong', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1166, '05116', 'Xã Mường Thàng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1167, '05092', 'Xã Thung Nai', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1168, '04831', 'Xã Đà Bắc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1169, '04876', 'Xã Cao Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1170, '04846', 'Xã Đức Nhàn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1171, '04873', 'Xã Quy Đức', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1172, '04849', 'Xã Tân Pheo', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1173, '04891', 'Xã Tiền Phong', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1174, '04978', 'Xã Kim Bôi', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1175, '05014', 'Xã Mường Động', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1176, '05086', 'Xã Dũng Tiến', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1177, '05068', 'Xã Hợp Kim', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1178, '04990', 'Xã Nật Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1179, '05266', 'Xã Lạc Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1180, '05287', 'Xã Mường Vang', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1181, '05347', 'Xã Đại Đồng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1182, '05329', 'Xã Ngọc Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1183, '05290', 'Xã Nhân Nghĩa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1184, '05323', 'Xã Quyết Thắng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1185, '05293', 'Xã Thượng Cốc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1186, '05305', 'Xã Yên Phú', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1187, '05392', 'Xã Lạc Thủy', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1188, '05425', 'Xã An Bình', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1189, '05395', 'Xã An Nghĩa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1190, '04924', 'Xã Lương Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1191, '05047', 'Xã Cao Dương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1192, '04960', 'Xã Liên Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1193, '05200', 'Xã Mai Châu', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1194, '05245', 'Xã Bao La', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1195, '05251', 'Xã Mai Hạ', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1196, '05212', 'Xã Pà Cò', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1197, '05206', 'Xã Tân Mai', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1198, '05128', 'Xã Tân Lạc', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1199, '05158', 'Xã Mường Bi', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1200, '05134', 'Xã Mường Hoa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1201, '05191', 'Xã Toàn Thắng', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1202, '05152', 'Xã Vân Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1203, '05353', 'Xã Yên Thủy', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1204, '05362', 'Xã Lạc Lương', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1205, '05386', 'Xã Yên Trị', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1206, '04897', 'Xã Thịnh Minh', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1207, '04795', 'Phường Hòa Bình', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1208, '04894', 'Phường Kỳ Sơn', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1209, '04792', 'Phường Tân Hòa', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1210, '04828', 'Phường Thống Nhất', 12)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1211, '03325', 'Xã Mường Phăng', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1212, '03127', 'Phường Điện Biên Phủ', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1213, '03334', 'Phường Mường Thanh', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1214, '03151', 'Phường Mường Lay', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1215, '03328', 'Xã Thanh Nưa', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1216, '03352', 'Xã Thanh An', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1217, '03349', 'Xã Thanh Yên', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1218, '03356', 'Xã Sam Mứn', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1219, '03358', 'Xã Núa Ngam', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1220, '03368', 'Xã Mường Nhà', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1221, '03253', 'Xã Tuần Giáo', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1222, '03295', 'Xã Quài Tở', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1223, '03268', 'Xã Mường Mùn', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1224, '03260', 'Xã Pú Nhung', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1225, '03283', 'Xã Chiềng Sinh', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1226, '03217', 'Xã Tủa Chùa', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1227, '03226', 'Xã Sín Chải', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1228, '03241', 'Xã Sính Phình', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1229, '03220', 'Xã Tủa Thàng', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1230, '03244', 'Xã Sáng Nhè', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1231, '03172', 'Xã Na Sang', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1232, '03181', 'Xã Mường Tùng', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1233, '03193', 'Xã Pa Ham', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1234, '03194', 'Xã Nậm Nèn', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1235, '03202', 'Xã Mường Pồn', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1236, '03203', 'Xã Na Son', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1237, '03208', 'Xã Xa Dung', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1238, '03370', 'Xã Pu Nhi', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1239, '03214', 'Xã Mường Luân', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1240, '03385', 'Xã Tìa Dình', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1241, '03382', 'Xã Phình Giàng', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1242, '03166', 'Xã Mường Chà', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1243, '03169', 'Xã Nà Hỳ', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1244, '03176', 'Xã Nà Bủng', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1245, '03175', 'Xã Chà Tở', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1246, '03199', 'Xã Si Pa Phìn', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1247, '03160', 'Xã Mường Nhé', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1248, '03158', 'Xã Sín Thầu', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1249, '03163', 'Xã Mường Toong', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1250, '03162', 'Xã Nậm Kè', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1251, '03164', 'Xã Quảng Lâm', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1252, '03256', 'Xã Mường Ảng', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1253, '03316', 'Xã Nà Tấu', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1254, '03301', 'Xã Búng Lao', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1255, '03313', 'Xã Mường Lạn', 13)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1256, '03637', 'Xã Mường Kim', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1257, '03640', 'Xã Khoen On', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1258, '03595', 'Xã Than Uyên', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1259, '03618', 'Xã Mường Than', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1260, '03616', 'Xã Pắc Ta', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1261, '03613', 'Xã Nậm Sỏ', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1262, '03598', 'Xã Tân Uyên', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1263, '03601', 'Xã Mường Khoa', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1264, '03424', 'Xã Bản Bo', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1265, '03390', 'Xã Bình Lư', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1266, '03405', 'Xã Tả Lèng', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1267, '03430', 'Xã Khun Há', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1268, '03408', 'Phường Tân Phong', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1269, '03388', 'Phường Đoàn Kết', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1270, '03394', 'Xã Sin Suối Hồ', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1271, '03549', 'Xã Phong Thổ', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1272, '03562', 'Xã Sì Lở Lầu', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1273, '03571', 'Xã Dào San', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1274, '03583', 'Xã Khổng Lào', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1275, '03529', 'Xã Tủa Sín Chải', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1276, '03478', 'Xã Sìn Hồ', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1277, '03508', 'Xã Hồng Thu', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1278, '03517', 'Xã Nậm Tăm', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1279, '03532', 'Xã Pu Sam Cáp', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1280, '03544', 'Xã Nậm Cuổi', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1281, '03538', 'Xã Nậm Mạ', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1282, '03487', 'Xã Lê Lợi', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1283, '03434', 'Xã Nậm Hàng', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1284, '03472', 'Xã Mường Mô', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1285, '03460', 'Xã Hua Bum', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1286, '03503', 'Xã Pa Tần', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1287, '03466', 'Xã Bum Nưa', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1288, '03433', 'Xã Bum Tở', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1289, '03445', 'Xã Mường Tè', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1290, '03439', 'Xã Thu Lũm', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1291, '03442', 'Xã Pa Ủ', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1292, '03463', 'Xã Tà Tổng', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1293, '03451', 'Xã Mù Cả', 14)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1294, '03646', 'Phường Tô Hiệu', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1295, '03664', 'Phường Chiềng An', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1296, '03670', 'Phường Chiềng Cơi', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1297, '03679', 'Phường Chiềng Sinh', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1298, '03980', 'Phường Mộc Châu', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1299, '03979', 'Phường Mộc Sơn', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1300, '04033', 'Phường Vân Sơn', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1301, '03982', 'Phường Thảo Nguyên', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1302, '04000', 'Xã Đoàn Kết', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1303, '04045', 'Xã Lóng Sập', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1304, '03985', 'Xã Chiềng Sơn', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1305, '04048', 'Xã Vân Hồ', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1306, '04006', 'Xã Song Khủa', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1307, '04018', 'Xã Tô Múa', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1308, '04057', 'Xã Xuân Nha', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1309, '03703', 'Xã Quỳnh Nhai', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1310, '03688', 'Xã Mường Chiên', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1311, '03694', 'Xã Mường Giôn', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1312, '03712', 'Xã Mường Sại', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1313, '03721', 'Xã Thuận Châu', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1314, '03754', 'Xã Chiềng La', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1315, '03784', 'Xã Nậm Lầu', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1316, '03799', 'Xã Muổi Nọi', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1317, '03757', 'Xã Mường Khiêng', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1318, '03781', 'Xã Co Mạ', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1319, '03724', 'Xã Bình Thuận', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1320, '03727', 'Xã Mường É', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1321, '03763', 'Xã Long Hẹ', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1322, '03808', 'Xã Mường La', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1323, '03814', 'Xã Chiềng Lao', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1324, '03847', 'Xã Mường Bú', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1325, '03850', 'Xã Chiềng Hoa', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1326, '03856', 'Xã Bắc Yên', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1327, '03868', 'Xã Tà Xùa', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1328, '03880', 'Xã Tạ Khoa', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1329, '03862', 'Xã Xím Vàng', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1330, '03871', 'Xã Pắc Ngà', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1331, '03892', 'Xã Chiềng Sại', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1332, '03910', 'Xã Phù Yên', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1333, '03922', 'Xã Gia Phù', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1334, '03958', 'Xã Tường Hạ', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1335, '03907', 'Xã Mường Cơi', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1336, '03943', 'Xã Mường Bang', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1337, '03970', 'Xã Tân Phong', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1338, '03961', 'Xã Kim Bon', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1339, '04075', 'Xã Yên Châu', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1340, '04078', 'Xã Chiềng Hặc', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1341, '04096', 'Xã Lóng Phiêng', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1342, '04087', 'Xã Yên Sơn', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1343, '04132', 'Xã Chiềng Mai', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1344, '04105', 'Xã Mai Sơn', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1345, '04159', 'Xã Phiêng Pằn', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1346, '04123', 'Xã Chiềng Mung', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1347, '04144', 'Xã Phiêng Cằm', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1348, '04117', 'Xã Mường Chanh', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1349, '04136', 'Xã Tà Hộc', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1350, '04108', 'Xã Chiềng Sung', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1351, '04171', 'Xã Bó Sinh', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1352, '04222', 'Xã Chiềng Khương', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1353, '04219', 'Xã Mường Hung', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1354, '04204', 'Xã Chiềng Khoong', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1355, '04183', 'Xã Mường Lầm', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1356, '04186', 'Xã Nậm Ty', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1357, '04168', 'Xã Sông Mã', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1358, '04210', 'Xã Huổi Một', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1359, '04195', 'Xã Chiềng Sơ', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1360, '04231', 'Xã Sốp Cộp', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1361, '04228', 'Xã Púng Bánh', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1362, '03997', 'Xã Tân Yên', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1363, '03760', 'Xã Mường Bám', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1364, '03820', 'Xã Ngọc Chiến', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1365, '03901', 'Xã Suối Tọ', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1366, '04099', 'Xã Phiêng Khoài', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1367, '04246', 'Xã Mường Lạn', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1368, '04240', 'Xã Mường Lèo', 15)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1369, '14797', 'Phường Hạc Thành', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1370, '16522', 'Phường Quảng Phú', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1371, '16417', 'Phường Đông Quang', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1372, '16378', 'Phường Đông Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1373, '15853', 'Phường Đông Tiến', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1374, '14758', 'Phường Hàm Rồng', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1375, '15925', 'Phường Nguyệt Viên', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1376, '16531', 'Phường Sầm Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1377, '16516', 'Phường Nam Sầm Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1378, '14812', 'Phường Bỉm Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1379, '14818', 'Phường Quang Trung', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1380, '16576', 'Phường Ngọc Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1381, '16594', 'Phường Tân Dân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1382, '16597', 'Phường Hải Lĩnh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1383, '16561', 'Phường Tĩnh Gia', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1384, '16609', 'Phường Đào Duy Từ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1385, '16645', 'Phường Hải Bình', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1386, '16624', 'Phường Trúc Lâm', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1387, '16654', 'Phường Nghi Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1388, '16591', 'Xã Các Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1389, '16636', 'Xã Trường Lâm', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1390, '15271', 'Xã Hà Trung', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1391, '15316', 'Xã Tống Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1392, '15274', 'Xã Hà Long', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1393, '15286', 'Xã Hoạt Giang', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1394, '15298', 'Xã Lĩnh Toại', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1395, '16021', 'Xã Triệu Lộc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1396, '16033', 'Xã Đông Thành', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1397, '16012', 'Xã Hậu Lộc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1398, '16072', 'Xã Hoa Lộc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1399, '16078', 'Xã Vạn Lộc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1400, '16093', 'Xã Nga Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1401, '16114', 'Xã Nga Thắng', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1402, '16138', 'Xã Hồ Vương', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1403, '16108', 'Xã Tân Tiến', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1404, '16144', 'Xã Nga An', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1405, '16171', 'Xã Ba Đình', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1406, '15865', 'Xã Hoằng Hóa', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1407, '15991', 'Xã Hoằng Tiến', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1408, '16000', 'Xã Hoằng Thanh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1409, '15961', 'Xã Hoằng Lộc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1410, '15976', 'Xã Hoằng Châu', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1411, '15910', 'Xã Hoằng Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1412, '15889', 'Xã Hoằng Phú', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1413, '15880', 'Xã Hoằng Giang', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1414, '16438', 'Xã Lưu Vệ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1415, '16480', 'Xã Quảng Yên', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1416, '16498', 'Xã Quảng Ngọc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1417, '16540', 'Xã Quảng Ninh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1418, '16543', 'Xã Quảng Bình', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1419, '16549', 'Xã Tiên Trang', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1420, '16489', 'Xã Quảng Chính', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1421, '16279', 'Xã Nông Cống', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1422, '16309', 'Xã Thắng Lợi', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1423, '16297', 'Xã Trung Chính', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1424, '16348', 'Xã Trường Văn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1425, '16342', 'Xã Thăng Bình', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1426, '16363', 'Xã Tượng Lĩnh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1427, '16369', 'Xã Công Chính', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1428, '15772', 'Xã Thiệu Hóa', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1429, '15796', 'Xã Thiệu Quang', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1430, '15778', 'Xã Thiệu Tiến', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1431, '15820', 'Xã Thiệu Toán', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1432, '15835', 'Xã Thiệu Trung', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1433, '15469', 'Xã Yên Định', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1434, '15421', 'Xã Yên Trường', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1435, '15409', 'Xã Yên Phú', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1436, '15412', 'Xã Quý Lộc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1437, '15442', 'Xã Yên Ninh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1438, '15457', 'Xã Định Tân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1439, '15448', 'Xã Định Hòa', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1440, '15499', 'Xã Thọ Xuân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1441, '15505', 'Xã Thọ Long', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1442, '15520', 'Xã Xuân Hòa', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1443, '15553', 'Xã Sao Vàng', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1444, '15544', 'Xã Lam Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1445, '15568', 'Xã Thọ Lập', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1446, '15574', 'Xã Xuân Tín', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1447, '15592', 'Xã Xuân Lập', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1448, '15349', 'Xã Vĩnh Lộc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1449, '15361', 'Xã Tây Đô', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1450, '15382', 'Xã Biện Thượng', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1451, '15664', 'Xã Triệu Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1452, '15667', 'Xã Thọ Bình', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1453, '15754', 'Xã Thọ Ngọc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1454, '15763', 'Xã Thọ Phú', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1455, '15682', 'Xã Hợp Tiến', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1456, '15766', 'Xã An Nông', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1457, '15715', 'Xã Tân Ninh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1458, '15724', 'Xã Đồng Tiến', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1459, '14866', 'Xã Mường Chanh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1460, '14860', 'Xã Quang Chiểu', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1461, '14848', 'Xã Tam chung', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1462, '14845', 'Xã Mường Lát', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1463, '14863', 'Xã Pù Nhi', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1464, '14864', 'Xã Nhi Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1465, '14854', 'Xã Mường Lý', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1466, '14857', 'Xã Trung Lý', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1467, '14869', 'Xã Hồi Xuân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1468, '14902', 'Xã Nam Xuân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1469, '14908', 'Xã Thiên Phủ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1470, '14896', 'Xã Hiền Kiệt', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1471, '14890', 'Xã Phú Xuân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1472, '14878', 'Xã Phú Lệ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1473, '14872', 'Xã Trung Thành', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1474, '14875', 'Xã Trung Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1475, '15013', 'Xã Na Mèo', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1476, '15010', 'Xã Sơn Thủy', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1477, '15022', 'Xã Sơn Điện', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1478, '15025', 'Xã Mường Mìn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1479, '15007', 'Xã Tam Thanh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1480, '15019', 'Xã Tam Lư', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1481, '15016', 'Xã Quan Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1482, '15001', 'Xã Trung Hạ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1483, '15055', 'Xã Linh Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1484, '15058', 'Xã Đồng Lương', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1485, '15049', 'Xã Văn Phú', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1486, '15043', 'Xã Giao An', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1487, '15031', 'Xã Yên Khương', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1488, '15034', 'Xã Yên Thắng', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1489, '14974', 'Xã Văn Nho', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1490, '14980', 'Xã Thiết Ống', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1491, '14923', 'Xã Bá Thước', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1492, '14959', 'Xã Cổ Lũng', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1493, '14956', 'Xã Pù Luông', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1494, '14950', 'Xã Điền Lư', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1495, '14932', 'Xã Điền Quang', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1496, '14953', 'Xã Quý Lương', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1497, '15061', 'Xã Ngọc Lặc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1498, '15085', 'Xã Thạch Lập', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1499, '15091', 'Xã Ngọc Liên', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1500, '15124', 'Xã Minh Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1501, '15106', 'Xã Nguyệt Ấn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1502, '15112', 'Xã Kiên Thọ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1503, '15142', 'Xã Cẩm Thạch', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1504, '15127', 'Xã Cẩm Thủy', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1505, '15148', 'Xã Cẩm Tú', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1506, '15163', 'Xã Cẩm Vân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1507, '15178', 'Xã Cẩm Tân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1508, '15187', 'Xã Kim Tân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1509, '15190', 'Xã Vân Du', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1510, '15250', 'Xã Ngọc Trạo', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1511, '15211', 'Xã Thạch Bình', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1512, '15229', 'Xã Thành Vinh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1513, '15199', 'Xã Thạch Quảng', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1514, '16174', 'Xã Như Xuân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1515, '16225', 'Xã Thượng Ninh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1516, '16177', 'Xã Xuân Bình', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1517, '16186', 'Xã Hóa Quỳ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1518, '16222', 'Xã Thanh Quân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1519, '16213', 'Xã Thanh Phong', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1520, '16234', 'Xã Xuân Du', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1521, '16249', 'Xã Mậu Lâm', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1522, '16228', 'Xã Như Thanh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1523, '16264', 'Xã Yên Thọ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1524, '16258', 'Xã Xuân Thái', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1525, '16273', 'Xã Thanh Kỳ', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1526, '15607', 'Xã Bát Mọt', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1527, '15610', 'Xã Yên Nhân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1528, '15628', 'Xã Lương Sơn', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1529, '15646', 'Xã Thường Xuân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1530, '15634', 'Xã Luận Thành', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1531, '15661', 'Xã Tân Thành', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1532, '15622', 'Xã Vạn Xuân', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1533, '15643', 'Xã Thắng Lộc', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1534, '15658', 'Xã Xuân Chinh', 16)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1535, '17329', 'Xã Anh Sơn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1536, '17380', 'Xã Yên Xuân', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1537, '17344', 'Xã Nhân Hòa', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1538, '17365', 'Xã Anh Sơn Đông', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1539, '17357', 'Xã Vĩnh Tường', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1540, '17335', 'Xã Thành Bình Thọ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1541, '17254', 'Xã Con Cuông', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1542, '17263', 'Xã Môn Sơn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1543, '17239', 'Xã Mậu Thạch', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1544, '17242', 'Xã Cam Phục', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1545, '17248', 'Xã Châu Khê', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1546, '17230', 'Xã Bình Chuẩn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1547, '17464', 'Xã Diễn Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1548, '17416', 'Xã Đức Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1549, '17443', 'Xã Quảng Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1550, '17419', 'Xã Hải Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1551, '17488', 'Xã Tân Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1552, '17479', 'Xã An Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1553, '17476', 'Xã Minh Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1554, '17395', 'Xã Hùng Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1555, '17662', 'Xã Đô Lương', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1556, '17623', 'Xã Bạch Ngọc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1557, '17677', 'Xã Văn Hiến', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1558, '17707', 'Xã Bạch Hà', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1559, '17689', 'Xã Thuần Trung', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1560, '17641', 'Xã Lương Sơn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1561, '17110', 'Phường Hoàng Mai', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1562, '17128', 'Phường Tân Mai', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1563, '17125', 'Phường Quỳnh Mai', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1564, '18001', 'Xã Hưng Nguyên', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1565, '18007', 'Xã Yên Trung', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1566, '18028', 'Xã Hưng Nguyên Nam', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1567, '18040', 'Xã Lam Thành', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1568, '16813', 'Xã Mường Xén', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1569, '16849', 'Xã Hữu Kiệm', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1570, '16837', 'Xã Nậm Cắn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1571, '16855', 'Xã Chiêu Lưu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1572, '16834', 'Xã Na Loi', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1573, '16858', 'Xã Mường Típ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1574, '16870', 'Xã Na Ngoi', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1575, '16816', 'Xã Mỹ Lý', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1576, '16819', 'Xã Bắc Lý', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1577, '16822', 'Xã Keng Đu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1578, '16828', 'Xã Huồi Tụ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1579, '16831', 'Xã Mường Lống', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1580, '17950', 'Xã Vạn An', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1581, '17935', 'Xã Nam Đàn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1582, '17944', 'Xã Đại Huệ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1583, '17989', 'Xã Thiên Nhẫn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1584, '17971', 'Xã Kim Liên', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1585, '16941', 'Xã Nghĩa Đàn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1586, '16969', 'Xã Nghĩa Thọ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1587, '16951', 'Xã Nghĩa Lâm', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1588, '16975', 'Xã Nghĩa Mai', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1589, '16972', 'Xã Nghĩa Hưng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1590, '17032', 'Xã Nghĩa Khánh', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1591, '17029', 'Xã Nghĩa Lộc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1592, '17827', 'Xã Nghi Lộc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1593, '17857', 'Xã Phúc Lộc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1594, '17878', 'Xã Đông Lộc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1595, '17866', 'Xã Trung Lộc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1596, '17842', 'Xã Thần Lĩnh', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1597, '17833', 'Xã Hải Lộc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1598, '17854', 'Xã Văn Kiều', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1599, '16738', 'Xã Quế Phong', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1600, '16750', 'Xã Tiền Phong', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1601, '16756', 'Xã Tri Lễ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1602, '16774', 'Xã Mường Quàng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1603, '16744', 'Xã Thông Thụ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1604, '16777', 'Xã Quỳ Châu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1605, '16792', 'Xã Châu Tiến', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1606, '16801', 'Xã Hùng Chân', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1607, '16804', 'Xã Châu Bình', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1608, '17035', 'Xã Quỳ Hợp', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1609, '17059', 'Xã Tam Hợp', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1610, '17056', 'Xã Châu Lộc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1611, '17044', 'Xã Châu Hồng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1612, '17077', 'Xã Mường Ham', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1613, '17089', 'Xã Mường Chọng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1614, '17071', 'Xã Minh Hợp', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1615, '17179', 'Xã Quỳnh Lưu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1616, '17143', 'Xã Quỳnh Văn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1617, '17176', 'Xã Quỳnh Anh', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1618, '17149', 'Xã Quỳnh Tam', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1619, '17212', 'Xã Quỳnh Phú', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1620, '17170', 'Xã Quỳnh Sơn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1621, '17224', 'Xã Quỳnh Thắng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1622, '17266', 'Xã Tân Kỳ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1623, '17272', 'Xã Tân Phú', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1624, '17305', 'Xã Tân An', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1625, '17284', 'Xã Nghĩa Đồng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1626, '17278', 'Xã Giai Xuân', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1627, '17326', 'Xã Nghĩa Hành', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1628, '17287', 'Xã Tiên Đồng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1629, '16939', 'Phường Thái Hòa', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1630, '17011', 'Phường Tây Hiếu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1631, '17017', 'Xã Đông Hiếu', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1632, '17728', 'Xã Cát Ngạn', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1633, '17743', 'Xã Tam Đồng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1634, '17722', 'Xã Hạnh Lâm', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1635, '17759', 'Xã Sơn Lâm', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1636, '17770', 'Xã Hoa Quân', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1637, '17791', 'Xã Kim Bảng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1638, '17818', 'Xã Bích Hào', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1639, '17713', 'Xã Đại Đồng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1640, '17779', 'Xã Xuân Lâm', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1641, '16933', 'Xã Tam Quang', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1642, '16936', 'Xã Tam Thái', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1643, '16876', 'Xã Tương Dương', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1644, '16906', 'Xã Lượng Minh', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1645, '16912', 'Xã Yên Na', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1646, '16909', 'Xã Yên Hòa', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1647, '16903', 'Xã Nga My', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1648, '16885', 'Xã Hữu Khuông', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1649, '16882', 'Xã Nhôn Mai', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1650, '16690', 'Phường Trường Vinh', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1651, '16681', 'Phường Thành Vinh', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1652, '17920', 'Phường Vinh Hưng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1653, '16702', 'Phường Vinh Phú', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1654, '16708', 'Phường Vinh Lộc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1655, '16732', 'Phường Cửa Lò', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1656, '17506', 'Xã Yên Thành', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1657, '17569', 'Xã Quan Thành', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1658, '17605', 'Xã Hợp Minh', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1659, '17611', 'Xã Vân Tụ', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1660, '17560', 'Xã Vân Du', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1661, '17521', 'Xã Quang Đồng', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1662, '17524', 'Xã Giai Lạc', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1663, '17515', 'Xã Bình Minh', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1664, '17530', 'Xã Đông Thành', 17)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1665, '18754', 'Phường Sông Trí', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1666, '18781', 'Phường Hải Ninh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1667, '18832', 'Phường Hoành Sơn', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1668, '18823', 'Phường Vũng Áng', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1669, '18766', 'Xã Kỳ Xuân', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1670, '18775', 'Xã Kỳ Anh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1671, '18814', 'Xã Kỳ Hoa', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1672, '18787', 'Xã Kỳ Văn', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1673, '18790', 'Xã Kỳ Khang', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1674, '18838', 'Xã Kỳ Lạc', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1675, '18844', 'Xã Kỳ Thượng', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1676, '18673', 'Xã Cẩm Xuyên', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1677, '18676', 'Xã Thiên Cầm', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1678, '18739', 'Xã Cẩm Duệ', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1679, '18736', 'Xã Cẩm Hưng', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1680, '18748', 'Xã Cẩm Lạc', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1681, '18742', 'Xã Cẩm Trung', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1682, '18682', 'Xã Yên Hòa', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1683, '18073', 'Phường Thành Sen', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1684, '18100', 'Phường Trần Phú', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1685, '18652', 'Phường Hà Huy Tập', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1686, '18628', 'Xã Thạch Lạc', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1687, '18619', 'Xã Đồng Tiến', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1688, '18604', 'Xã Thạch Khê', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1689, '18685', 'Xã Cẩm Bình', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1690, '18562', 'Xã Thạch Hà', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1691, '18634', 'Xã Toàn Lưu', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1692, '18601', 'Xã Việt Xuyên', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1693, '18586', 'Xã Đông Kinh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1694, '18667', 'Xã Thạch Xuân', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1695, '18568', 'Xã Lộc Hà', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1696, '18409', 'Xã Hồng Lộc', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1697, '18583', 'Xã Mai Phụ', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1698, '18406', 'Xã Can Lộc', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1699, '18418', 'Xã Tùng Lộc', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1700, '18466', 'Xã Gia Hanh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1701, '18436', 'Xã Trường Lưu', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1702, '18481', 'Xã Xuân Lộc', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1703, '18484', 'Xã Đồng Lộc', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1704, '18115', 'Phường Bắc Hồng Lĩnh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1705, '18118', 'Phường Nam Hồng Lĩnh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1706, '18373', 'Xã Tiên Điền', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1707, '18352', 'Xã Nghi Xuân', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1708, '18394', 'Xã Cổ Đạm', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1709, '18364', 'Xã Đan Hải', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1710, '18229', 'Xã Đức Thọ', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1711, '18262', 'Xã Đức Quang', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1712, '18304', 'Xã Đức Đồng', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1713, '18277', 'Xã Đức Thịnh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1714, '18244', 'Xã Đức Minh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1715, '18133', 'Xã Hương Sơn', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1716, '18172', 'Xã Sơn Tây', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1717, '18202', 'Xã Tứ Mỹ', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1718, '18184', 'Xã Sơn Giang', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1719, '18163', 'Xã Sơn Tiến', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1720, '18160', 'Xã Sơn Hồng', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1721, '18223', 'Xã Kim Hoa', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1722, '18313', 'Xã Vũ Quang', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1723, '18322', 'Xã Mai Hoa', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1724, '18328', 'Xã Thượng Đức', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1725, '18496', 'Xã Hương Khê', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1726, '18532', 'Xã Hương Phố', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1727, '18550', 'Xã Hương Đô', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1728, '18502', 'Xã Hà Linh', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1729, '18523', 'Xã Hương Bình', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1730, '18547', 'Xã Phúc Trạch', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1731, '18544', 'Xã Hương Xuân', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1732, '18196', 'Xã Sơn Kim 1', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1733, '18199', 'Xã Sơn Kim 2', 18)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1734, '19742', 'Đặc khu Cồn Cỏ', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1735, '19597', 'Xã Cam Lộ', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1736, '19603', 'Xã Hiếu Giang', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1737, '19333', 'Phường Đông Hà', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1738, '19351', 'Phường Nam Đông Hà', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1739, '19435', 'Xã Hướng Lập', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1740, '19441', 'Xã Hướng Phùng', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1741, '19429', 'Xã Khe Sanh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1742, '19462', 'Xã Tân Lập', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1743, '19432', 'Xã Lao Bảo', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1744, '19489', 'Xã Lìa', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1745, '19483', 'Xã A Dơi', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1746, '19594', 'Xã La Lay', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1747, '19588', 'Xã Tà Rụt', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1748, '19564', 'Xã Đakrông', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1749, '19567', 'Xã Ba Lòng', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1750, '19555', 'Xã Hướng Hiệp', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1751, '19363', 'Xã Vĩnh Linh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1752, '19414', 'Xã Cửa Tùng', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1753, '19372', 'Xã Vĩnh Hoàng', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1754, '19405', 'Xã Vĩnh Thủy', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1755, '19366', 'Xã Bến Quan', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1756, '19537', 'Xã Cồn Tiên', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1757, '19496', 'Xã Cửa Việt', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1758, '19495', 'Xã Gio Linh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1759, '19501', 'Xã Bến Hải', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1760, '19624', 'Xã Triệu Phong', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1761, '19669', 'Xã Ái Tử', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1762, '19645', 'Xã Triệu Bình', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1763, '19654', 'Xã Triệu Cơ', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1764, '19639', 'Xã Nam Cửa Việt', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1765, '19681', 'Xã Diên Sanh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1766, '19741', 'Xã Mỹ Thủy', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1767, '19702', 'Xã Hải Lăng', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1768, '19699', 'Xã Vĩnh Định', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1769, '19735', 'Xã Nam Hải Lăng', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1770, '19360', 'Phường Quảng Trị', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1771, '18880', 'Phường Đồng Hới', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1772, '18859', 'Phường Đồng Thuận', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1773, '18871', 'Phường Đồng Sơn', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1774, '19093', 'Xã Nam Gianh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1775, '19075', 'Xã Nam Ba Đồn', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1776, '19009', 'Phường Ba Đồn', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1777, '19066', 'Phường Bắc Gianh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1778, '18904', 'Xã Dân Hóa', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1779, '18922', 'Xã Kim Điền', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1780, '18943', 'Xã Kim Phú', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1781, '18901', 'Xã Minh Hóa', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1782, '18919', 'Xã Tân Thành', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1783, '18958', 'Xã Tuyên Lâm', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1784, '18952', 'Xã Tuyên Sơn', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1785, '18949', 'Xã Đồng Lê', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1786, '18985', 'Xã Tuyên Phú', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1787, '18991', 'Xã Tuyên Bình', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1788, '18997', 'Xã Tuyên Hóa', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1789, '19051', 'Xã Tân Gianh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1790, '19030', 'Xã Trung Thuần', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1791, '19057', 'Xã Quảng Trạch', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1792, '19033', 'Xã Hòa Trạch', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1793, '19021', 'Xã Phú Trạch', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1794, '19147', 'Xã Thượng Trạch', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1795, '19138', 'Xã Phong Nha', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1796, '19126', 'Xã Bắc Trạch', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1797, '19159', 'Xã Đông Trạch', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1798, '19111', 'Xã Hoàn Lão', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1799, '19141', 'Xã Bố Trạch', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1800, '19198', 'Xã Nam Trạch', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1801, '19207', 'Xã Quảng Ninh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1802, '19225', 'Xã Ninh Châu', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1803, '19237', 'Xã Trường Ninh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1804, '19204', 'Xã Trường Sơn', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1805, '19249', 'Xã Lệ Thủy', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1806, '19255', 'Xã Cam Hồng', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1807, '19288', 'Xã Sen Ngư', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1808, '19291', 'Xã Tân Mỹ', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1809, '19309', 'Xã Trường Phú', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1810, '19246', 'Xã Lệ Ninh', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1811, '19318', 'Xã Kim Ngân', 19)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1812, '19900', 'Phường Thuận An', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1813, '20014', 'Phường Hóa Châu', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1814, '19930', 'Phường Mỹ Thượng', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1815, '19777', 'Phường Vỹ Dạ', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1816, '19789', 'Phường Thuận Hóa', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1817, '19815', 'Phường An Cựu', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1818, '19813', 'Phường Thủy Xuân', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1819, '19774', 'Phường Kim Long', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1820, '19804', 'Phường Hương An', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1821, '19753', 'Phường Phú Xuân', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1822, '19996', 'Phường Hương Trà', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1823, '20017', 'Phường Kim Trà', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1824, '19969', 'Phường Thanh Thủy', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1825, '19975', 'Phường Hương Thủy', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1826, '19960', 'Phường Phú Bài', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1827, '19819', 'Phường Phong Điền', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1828, '19858', 'Phường Phong Thái', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1829, '19831', 'Phường Phong Dinh', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1830, '19828', 'Phường Phong Phú', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1831, '19873', 'Phường Phong Quảng', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1832, '19885', 'Xã Đan Điền', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1833, '19867', 'Xã Quảng Điền', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1834, '19945', 'Xã Phú Vinh', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1835, '19918', 'Xã Phú Hồ', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1836, '19942', 'Xã Phú Vang', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1837, '20122', 'Xã Vinh Lộc', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1838, '20131', 'Xã Hưng Lộc', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1839, '20140', 'Xã Lộc An', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1840, '20107', 'Xã Phú Lộc', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1841, '20137', 'Xã Chân Mây - Lăng Cô', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1842, '20182', 'Xã Long Quảng', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1843, '20179', 'Xã Nam Đông', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1844, '20161', 'Xã Khe Tre', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1845, '20035', 'Xã Bình Điền', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1846, '20056', 'Xã A Lưới 1', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1847, '20044', 'Xã A Lưới 2', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1848, '20071', 'Xã A Lưới 3', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1849, '20101', 'Xã A Lưới 4', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1850, '20050', 'Xã A Lưới 5', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1851, '19909', 'Phường Dương Nỗ', 20)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1852, '20965', 'Xã Núi Thành', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1853, '21004', 'Xã Tam Mỹ', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1854, '20984', 'Xã Tam Anh', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1855, '20977', 'Xã Đức Phú', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1856, '20971', 'Xã Tam Xuân', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1857, '20992', 'Xã Tam Hải', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1858, '20341', 'Phường Tam Kỳ', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1859, '20356', 'Phường Quảng Phú', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1860, '20350', 'Phường Hương Trà', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1861, '20335', 'Phường Bàn Thạch', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1862, '20380', 'Xã Tây Hồ', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1863, '20364', 'Xã Chiên Đàn', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1864, '20392', 'Xã Phú Ninh', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1865, '20875', 'Xã Lãnh Ngọc', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1866, '20854', 'Xã Tiên Phước', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1867, '20878', 'Xã Thạnh Bình', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1868, '20857', 'Xã Sơn Cẩm Hà', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1869, '20908', 'Xã Trà Liên', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1870, '20929', 'Xã Trà Giáp', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1871, '20923', 'Xã Trà Tân', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1872, '20920', 'Xã Trà Đốc', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1873, '20900', 'Xã Trà My', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1874, '20944', 'Xã Nam Trà My', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1875, '20941', 'Xã Trà Tập', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1876, '20959', 'Xã Trà Vân', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1877, '20950', 'Xã Trà Linh', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1878, '20938', 'Xã Trà Leng', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1879, '20791', 'Xã Thăng Bình', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1880, '20794', 'Xã Thăng An', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1881, '20836', 'Xã Thăng Trường', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1882, '20848', 'Xã Thăng Điền', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1883, '20827', 'Xã Thăng Phú', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1884, '20818', 'Xã Đồng Dương', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1885, '20662', 'Xã Quế Sơn Trung', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1886, '20641', 'Xã Quế Sơn', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1887, '20650', 'Xã Xuân Phú', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1888, '20656', 'Xã Nông Sơn', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1889, '20669', 'Xã Quế Phước', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1890, '20635', 'Xã Duy Nghĩa', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1891, '20599', 'Xã Nam Phước', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1892, '20623', 'Xã Duy Xuyên', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1893, '20611', 'Xã Thu Bồn', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1894, '20551', 'Phường Điện Bàn', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1895, '20579', 'Phường Điện Bàn Đông', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1896, '20575', 'Phường An Thắng', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1897, '20557', 'Phường Điện Bàn Bắc', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1898, '20569', 'Xã Điện Bàn Tây', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1899, '20587', 'Xã Gò Nổi', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1900, '20410', 'Phường Hội An', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1901, '20413', 'Phường Hội An Đông', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1902, '20401', 'Phường Hội An Tây', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1903, '20434', 'Xã Tân Hiệp', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1904, '20500', 'Xã Đại Lộc', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1905, '20515', 'Xã Hà Nha', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1906, '20506', 'Xã Thượng Đức', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1907, '20539', 'Xã Vu Gia', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1908, '20542', 'Xã Phú Thuận', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1909, '20695', 'Xã Thạnh Mỹ', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1910, '20710', 'Xã Bến Giằng', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1911, '20707', 'Xã Nam Giang', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1912, '20716', 'Xã Đắc Pring', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1913, '20704', 'Xã La Dêê', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1914, '20698', 'Xã La Êê', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1915, '20485', 'Xã Sông Vàng', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1916, '20476', 'Xã Sông Kôn', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1917, '20467', 'Xã Đông Giang', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1918, '20494', 'Xã Bến Hiên', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1919, '20458', 'Xã Avương', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1920, '20455', 'Xã Tây Giang', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1921, '20443', 'Xã Hùng Sơn', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1922, '20779', 'Xã Hiệp Đức', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1923, '20767', 'Xã Việt An', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1924, '20770', 'Xã Phước Trà', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1925, '20722', 'Xã Khâm Đức', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1926, '20734', 'Xã Phước Năng', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1927, '20740', 'Xã Phước Chánh', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1928, '20752', 'Xã Phước Thành', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1929, '20728', 'Xã Phước Hiệp', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1930, '20242', 'Phường Hải Châu', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1931, '20257', 'Phường Hòa Cường', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1932, '20209', 'Phường Thanh Khê', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1933, '20305', 'Phường An Khê', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1934, '20275', 'Phường An Hải', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1935, '20263', 'Phường Sơn Trà', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1936, '20285', 'Phường Ngũ Hành Sơn', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1937, '20200', 'Phường Hòa Khánh', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1938, '20194', 'Phường Hải Vân', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1939, '20197', 'Phường Liên Chiểu', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1940, '20260', 'Phường Cẩm Lệ', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1941, '20314', 'Phường Hòa Xuân', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1942, '20320', 'Xã Hòa Vang', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1943, '20332', 'Xã Hòa Tiến', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1944, '20308', 'Xã Bà Nà', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1945, '20333', 'Đặc khu Hoàng Sa', 21)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1946, '23293', 'Phường Kon Tum', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1947, '23284', 'Phường Đăk Cấm', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1948, '23302', 'Phường Đăk BLa', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1949, '23317', 'Xã Ngọk Bay', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1950, '23326', 'Xã Ia Chim', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1951, '23332', 'Xã Đăk Rơ Wa', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1952, '23504', 'Xã Đăk Pxi', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1953, '23512', 'Xã Đăk Mar', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1954, '23510', 'Xã Đăk Ui', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1955, '23515', 'Xã Ngọk Réo', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1956, '23500', 'Xã Đăk Hà', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1957, '23428', 'Xã Ngọk Tụ', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1958, '23401', 'Xã Đăk Tô', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1959, '23430', 'Xã Kon Đào', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1960, '23416', 'Xã Đăk Sao', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1961, '23419', 'Xã Đăk Tờ Kan', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1962, '23425', 'Xã Tu Mơ Rông', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1963, '23446', 'Xã Măng Ri', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1964, '23377', 'Xã Bờ Y', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1965, '23392', 'Xã Sa Loong', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1966, '23383', 'Xã Dục Nông', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1967, '23356', 'Xã Xốp', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1968, '23365', 'Xã Ngọc Linh', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1969, '23344', 'Xã Đăk Plô', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1970, '23341', 'Xã Đăk Pék', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1971, '23374', 'Xã Đăk Môn', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1972, '23527', 'Xã Sa Thầy', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1973, '23534', 'Xã Sa Bình', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1974, '23548', 'Xã Ya Ly', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1975, '23538', 'Xã Ia Tơi', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1976, '23485', 'Xã Đăk Kôi', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1977, '23497', 'Xã Kon Braih', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1978, '23479', 'Xã Đăk Rve', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1979, '23473', 'Xã Măng Đen', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1980, '23455', 'Xã Măng Bút', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1981, '23476', 'Xã Kon Plông', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1982, '23368', 'Xã Đăk Long', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1983, '23530', 'Xã Rờ Kơi', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1984, '23536', 'Xã Mô Rai', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1985, '23535', 'Xã Ia Đal', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1986, '21211', 'Xã Tịnh Khê', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1987, '21172', 'Phường Trương Quang Trọng', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1988, '21034', 'Xã An Phú', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1989, '21025', 'Phường Cẩm Thành', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1990, '21028', 'Phường Nghĩa Lộ', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1991, '21451', 'Phường Trà Câu', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1992, '21457', 'Xã Nguyễn Nghiêm', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1993, '21439', 'Phường Đức Phổ', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1994, '21472', 'Xã Khánh Cường', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1995, '21478', 'Phường Sa Huỳnh', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1996, '21085', 'Xã Bình Minh', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1997, '21100', 'Xã Bình Chương', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1998, '21040', 'Xã Bình Sơn', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (1999, '21061', 'Xã Vạn Tường', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2000, '21109', 'Xã Đông Sơn', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2001, '21196', 'Xã Trường Giang', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2002, '21205', 'Xã Ba Gia', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2003, '21220', 'Xã Sơn Tịnh', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2004, '21181', 'Xã Thọ Phong', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2005, '21235', 'Xã Tư Nghĩa', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2006, '21238', 'Xã Vệ Giang', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2007, '21250', 'Xã Nghĩa Giang', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2008, '21244', 'Xã Trà Giang', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2009, '21364', 'Xã Nghĩa Hành', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2010, '21385', 'Xã Đình Cương', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2011, '21388', 'Xã Thiện Tín', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2012, '21370', 'Xã Phước Giang', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2013, '21409', 'Xã Long Phụng', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2014, '21421', 'Xã Mỏ Cày', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2015, '21400', 'Xã Mộ Đức', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2016, '21433', 'Xã Lân Phong', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2017, '21115', 'Xã Trà Bồng', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2018, '21127', 'Xã Đông Trà Bồng', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2019, '21154', 'Xã Tây Trà', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2020, '21124', 'Xã Thanh Bồng', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2021, '21136', 'Xã Cà Đam', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2022, '21157', 'Xã Tây Trà Bồng', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2023, '21292', 'Xã Sơn Hạ', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2024, '21307', 'Xã Sơn Linh', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2025, '21289', 'Xã Sơn Hà', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2026, '21319', 'Xã Sơn Thủy', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2027, '21325', 'Xã Sơn Kỳ', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2028, '21340', 'Xã Sơn Tây', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2029, '21334', 'Xã Sơn Tây Thượng', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2030, '21343', 'Xã Sơn Tây Hạ', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2031, '21361', 'Xã Minh Long', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2032, '21349', 'Xã Sơn Mai', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2033, '21529', 'Xã Ba Vì', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2034, '21523', 'Xã Ba Tô', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2035, '21499', 'Xã Ba Dinh', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2036, '21484', 'Xã Ba Tơ', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2037, '21490', 'Xã Ba Vinh', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2038, '21496', 'Xã Ba Động', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2039, '21520', 'Xã Đặng Thùy Trâm', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2040, '21538', 'Xã Ba Xa', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2041, '21548', 'Đặc khu Lý Sơn', 22)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2042, '22366', 'Phường Nha Trang', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2043, '22333', 'Phường Bắc Nha Trang', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2044, '22390', 'Phường Tây Nha Trang', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2045, '22402', 'Phường Nam Nha Trang', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2046, '22411', 'Phường Bắc Cam Ranh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2047, '22420', 'Phường Cam Ranh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2048, '22432', 'Phường Cam Linh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2049, '22423', 'Phường Ba Ngòi', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2050, '22480', 'Xã Nam Cam Ranh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2051, '22546', 'Xã Bắc Ninh Hòa', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2052, '22528', 'Phường Ninh Hòa', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2053, '22576', 'Xã Tân Định', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2054, '22561', 'Phường Đông Ninh Hòa', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2055, '22591', 'Phường Hòa Thắng', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2056, '22597', 'Xã Nam Ninh Hòa', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2057, '22552', 'Xã Tây Ninh Hòa', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2058, '22558', 'Xã Hòa Trí', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2059, '22504', 'Xã Đại Lãnh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2060, '22498', 'Xã Tu Bông', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2061, '22516', 'Xã Vạn Thắng', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2062, '22489', 'Xã Vạn Ninh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2063, '22525', 'Xã Vạn Hưng', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2064, '22651', 'Xã Diên Khánh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2065, '22678', 'Xã Diên Lạc', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2066, '22657', 'Xã Diên Điền', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2067, '22660', 'Xã Diên Lâm', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2068, '22672', 'Xã Diên Thọ', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2069, '22702', 'Xã Suối Hiệp', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2070, '22453', 'Xã Cam Lâm', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2071, '22708', 'Xã Suối Dầu', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2072, '22435', 'Xã Cam Hiệp', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2073, '22465', 'Xã Cam An', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2074, '22615', 'Xã Bắc Khánh Vĩnh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2075, '22612', 'Xã Trung Khánh Vĩnh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2076, '22624', 'Xã Tây Khánh Vĩnh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2077, '22648', 'Xã Nam Khánh Vĩnh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2078, '22609', 'Xã Khánh Vĩnh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2079, '22714', 'Xã Khánh Sơn', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2080, '22720', 'Xã Tây Khánh Sơn', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2081, '22732', 'Xã Đông Khánh Sơn', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2082, '22736', 'Đặc khu Trường Sa', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2083, '22759', 'Phường Phan Rang', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2084, '22780', 'Phường Đông Hải', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2085, '22834', 'Phường Ninh Chử', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2086, '22741', 'Phường Bảo An', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2087, '22738', 'Phường Đô Vinh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2088, '22870', 'Xã Ninh Phước', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2089, '22891', 'Xã Phước Hữu', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2090, '22873', 'Xã Phước Hậu', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2091, '22897', 'Xã Thuận Nam', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2092, '22909', 'Xã Cà Ná', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2093, '22900', 'Xã Phước Hà', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2094, '22888', 'Xã Phước Dinh', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2095, '22852', 'Xã Ninh Hải', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2096, '22861', 'Xã Xuân Hải', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2097, '22846', 'Xã Vĩnh Hải', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2098, '22849', 'Xã Thuận Bắc', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2099, '22840', 'Xã Công Hải', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2100, '22810', 'Xã Ninh Sơn', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2101, '22813', 'Xã Lâm Sơn', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2102, '22828', 'Xã Anh Dũng', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2103, '22822', 'Xã Mỹ Sơn', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2104, '22801', 'Xã Bác Ái Đông', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2105, '22795', 'Xã Bác Ái', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2106, '22786', 'Xã Bác Ái Tây', 23)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2107, '23575', 'Phường Pleiku', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2108, '23586', 'Phường Hội Phú', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2109, '23584', 'Phường Thống Nhất', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2110, '23563', 'Phường Diên Hồng', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2111, '23602', 'Phường An Phú', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2112, '23590', 'Xã Biển Hồ', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2113, '23611', 'Xã Gào', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2114, '23734', 'Xã Ia Ly', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2115, '23722', 'Xã Chư Păh', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2116, '23728', 'Xã Ia Khươl', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2117, '23749', 'Xã Ia Phí', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2118, '23887', 'Xã Chư Prông', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2119, '23896', 'Xã Bàu Cạn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2120, '23911', 'Xã Ia Boòng', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2121, '23935', 'Xã Ia Lâu', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2122, '23926', 'Xã Ia Pia', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2123, '23908', 'Xã Ia Tôr', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2124, '23941', 'Xã Chư Sê', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2125, '23947', 'Xã Bờ Ngoong', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2126, '23977', 'Xã Ia Ko', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2127, '23954', 'Xã Al Bá', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2128, '23942', 'Xã Chư Pưh', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2129, '23986', 'Xã Ia Le', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2130, '23971', 'Xã Ia Hrú', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2131, '23617', 'Phường An Khê', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2132, '23614', 'Phường An Bình', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2133, '23629', 'Xã Cửu An', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2134, '23995', 'Xã Đak Pơ', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2135, '24007', 'Xã Ya Hội', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2136, '23638', 'Xã Kbang', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2137, '23674', 'Xã Kông Bơ La', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2138, '23668', 'Xã Tơ Tung', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2139, '23647', 'Xã Sơn Lang', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2140, '23644', 'Xã Đak Rong', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2141, '23824', 'Xã Kông Chro', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2142, '23833', 'Xã Ya Ma', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2143, '23830', 'Xã Chư Krey', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2144, '23839', 'Xã SRó', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2145, '23842', 'Xã Đăk Song', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2146, '23851', 'Xã Chơ Long', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2147, '24044', 'Phường Ayun Pa', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2148, '24065', 'Xã Ia Rbol', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2149, '24073', 'Xã Ia Sao', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2150, '24043', 'Xã Phú Thiện', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2151, '24049', 'Xã Chư A Thai', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2152, '24061', 'Xã Ia Hiao', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2153, '24013', 'Xã Pờ Tó', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2154, '24022', 'Xã Ia Pa', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2155, '24028', 'Xã Ia Tul', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2156, '24076', 'Xã Phú Túc', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2157, '24100', 'Xã Ia Dreh', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2158, '24112', 'Xã Ia Rsai', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2159, '24109', 'Xã Uar', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2160, '23677', 'Xã Đak Đoa', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2161, '23701', 'Xã Kon Gang', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2162, '23710', 'Xã Ia Băng', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2163, '23714', 'Xã KDang', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2164, '23683', 'Xã Đak Sơmei', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2165, '23794', 'Xã Mang Yang', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2166, '23812', 'Xã Lơ Pang', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2167, '23818', 'Xã Kon Chiêng', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2168, '23799', 'Xã Hra', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2169, '23798', 'Xã Ayun', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2170, '23764', 'Xã Ia Grai', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2171, '23776', 'Xã Ia Krái', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2172, '23767', 'Xã Ia Hrung', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2173, '23857', 'Xã Đức Cơ', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2174, '23869', 'Xã Ia Dơk', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2175, '23866', 'Xã Ia Krêl', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2176, '21607', 'Xã Nhơn Châu', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2177, '23917', 'Xã Ia Púch', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2178, '23938', 'Xã Ia Mơ', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2179, '23881', 'Xã Ia Pnôn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2180, '23884', 'Xã Ia Nan', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2181, '23872', 'Xã Ia Dom', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2182, '23788', 'Xã Ia Chia', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2183, '23782', 'Xã Ia O', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2184, '23650', 'Xã Krong', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2185, '21583', 'Phường Quy Nhơn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2186, '21601', 'Phường Quy Nhơn Đông', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2187, '21589', 'Phường Quy Nhơn Tây', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2188, '21592', 'Phường Quy Nhơn Nam', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2189, '21553', 'Phường Quy Nhơn Bắc', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2190, '21907', 'Phường Bình Định', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2191, '21910', 'Phường An Nhơn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2192, '21934', 'Phường An Nhơn Đông', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2193, '21943', 'Phường An Nhơn Nam', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2194, '21925', 'Phường An Nhơn Bắc', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2195, '21940', 'Xã An Nhơn Tây', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2196, '21640', 'Phường Bồng Sơn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2197, '21664', 'Phường Hoài Nhơn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2198, '21637', 'Phường Tam Quan', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2199, '21670', 'Phường Hoài Nhơn Đông', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2200, '21661', 'Phường Hoài Nhơn Tây', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2201, '21673', 'Phường Hoài Nhơn Nam', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2202, '21655', 'Phường Hoài Nhơn Bắc', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2203, '21853', 'Xã Phù Cát', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2204, '21892', 'Xã Xuân An', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2205, '21901', 'Xã Ngô Mây', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2206, '21880', 'Xã Cát Tiến', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2207, '21859', 'Xã Đề Gi', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2208, '21871', 'Xã Hòa Hội', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2209, '21868', 'Xã Hội Sơn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2210, '21730', 'Xã Phù Mỹ', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2211, '21769', 'Xã An Lương', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2212, '21733', 'Xã Bình Dương', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2213, '21751', 'Xã Phù Mỹ Đông', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2214, '21757', 'Xã Phù Mỹ Tây', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2215, '21775', 'Xã Phù Mỹ Nam', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2216, '21739', 'Xã Phù Mỹ Bắc', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2217, '21952', 'Xã Tuy Phước', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2218, '21970', 'Xã Tuy Phước Đông', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2219, '21985', 'Xã Tuy Phước Tây', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2220, '21964', 'Xã Tuy Phước Bắc', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2221, '21808', 'Xã Tây Sơn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2222, '21820', 'Xã Bình Khê', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2223, '21835', 'Xã Bình Phú', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2224, '21817', 'Xã Bình Hiệp', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2225, '21829', 'Xã Bình An', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2226, '21688', 'Xã Hoài Ân', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2227, '21715', 'Xã Ân Tường', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2228, '21727', 'Xã Kim Sơn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2229, '21703', 'Xã Vạn Đức', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2230, '21697', 'Xã Ân Hảo', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2231, '21994', 'Xã Vân Canh', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2232, '22006', 'Xã Canh Vinh', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2233, '21997', 'Xã Canh Liên', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2234, '21786', 'Xã Vĩnh Thạnh', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2235, '21796', 'Xã Vĩnh Thịnh', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2236, '21805', 'Xã Vĩnh Quang', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2237, '21787', 'Xã Vĩnh Sơn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2238, '21628', 'Xã An Hòa', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2239, '21609', 'Xã An Lão', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2240, '21616', 'Xã An Vinh', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2241, '21622', 'Xã An Toàn', 24)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2242, '22015', 'Phường Tuy Hòa', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2243, '22240', 'Phường Phú Yên', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2244, '22045', 'Phường Bình Kiến', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2245, '22075', 'Xã Xuân Thọ', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2246, '22060', 'Xã Xuân Cảnh', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2247, '22057', 'Xã Xuân Lộc', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2248, '22076', 'Phường Xuân Đài', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2249, '22051', 'Phường Sông Cầu', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2250, '22291', 'Xã Hòa Xuân', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2251, '22258', 'Phường Đông Hòa', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2252, '22261', 'Phường Hòa Hiệp', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2253, '22114', 'Xã Tuy An Bắc', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2254, '22120', 'Xã Tuy An Đông', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2255, '22147', 'Xã Ô Loan', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2256, '22153', 'Xã Tuy An Nam', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2257, '22132', 'Xã Tuy An Tây', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2258, '22319', 'Xã Phú Hòa 1', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2259, '22303', 'Xã Phú Hòa 2', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2260, '22255', 'Xã Tây Hòa', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2261, '22276', 'Xã Hòa Thịnh', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2262, '22285', 'Xã Hòa Mỹ', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2263, '22250', 'Xã Sơn Thành', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2264, '22165', 'Xã Sơn Hòa', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2265, '22177', 'Xã Vân Hòa', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2266, '22171', 'Xã Tây Sơn', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2267, '22192', 'Xã Suối Trai', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2268, '22237', 'Xã Ea Ly', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2269, '22225', 'Xã Ea Bá', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2270, '22222', 'Xã Đức Bình', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2271, '22207', 'Xã Sông Hinh', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2272, '22090', 'Xã Xuân Lãnh', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2273, '22096', 'Xã Phú Mỡ', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2274, '22111', 'Xã Xuân Phước', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2275, '22081', 'Xã Đồng Xuân', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2276, '24175', 'Xã Hòa Phú', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2277, '24133', 'Phường Buôn Ma Thuột', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2278, '24163', 'Phường Tân An', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2279, '24121', 'Phường Tân Lập', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2280, '24154', 'Phường Thành Nhất', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2281, '24169', 'Phường Ea Kao', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2282, '24328', 'Xã Ea Drông', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2283, '24305', 'Phường Buôn Hồ', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2284, '24340', 'Phường Cư Bao', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2285, '24211', 'Xã Ea Súp', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2286, '24217', 'Xã Ea Rốk', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2287, '24229', 'Xã Ea Bung', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2288, '24221', 'Xã Ia Rvê', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2289, '24214', 'Xã Ia Lốp', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2290, '24241', 'Xã Ea Wer', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2291, '24250', 'Xã Ea Nuôl', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2292, '24235', 'Xã Buôn Đôn', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2293, '24265', 'Xã Ea Kiết', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2294, '24286', 'Xã Ea M’Droh', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2295, '24259', 'Xã Quảng Phú', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2296, '24301', 'Xã Cuôr Đăng', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2297, '24280', 'Xã Cư M’gar', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2298, '24277', 'Xã Ea Tul', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2299, '24316', 'Xã Pơng Drang', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2300, '24310', 'Xã Krông Búk', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2301, '24313', 'Xã Cư Pơng', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2302, '24208', 'Xã Ea Khăl', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2303, '24181', 'Xã Ea Drăng', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2304, '24193', 'Xã Ea Wy', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2305, '24184', 'Xã Ea H’leo', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2306, '24187', 'Xã Ea Hiao', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2307, '24343', 'Xã Krông Năng', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2308, '24346', 'Xã Dliê Ya', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2309, '24352', 'Xã Tam Giang', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2310, '24364', 'Xã Phú Xuân', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2311, '24490', 'Xã Krông Pắc', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2312, '24505', 'Xã Ea Knuếc', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2313, '24526', 'Xã Tân Tiến', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2314, '24502', 'Xã Ea Phê', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2315, '24496', 'Xã Ea Kly', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2316, '24529', 'Xã Vụ Bổn', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2317, '24373', 'Xã Ea Kar', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2318, '24403', 'Xã Ea Ô', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2319, '24376', 'Xã Ea Knốp', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2320, '24406', 'Xã Cư Yang', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2321, '24400', 'Xã Ea Păl', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2322, '24412', 'Xã M’Drắk', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2323, '24433', 'Xã Ea Riêng', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2324, '24436', 'Xã Cư M’ta', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2325, '24444', 'Xã Krông Á', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2326, '24415', 'Xã Cư Prao', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2327, '24445', 'Xã Ea Trang', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2328, '24472', 'Xã Hòa Sơn', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2329, '24454', 'Xã Dang Kang', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2330, '24448', 'Xã Krông Bông', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2331, '24484', 'Xã Yang Mao', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2332, '24478', 'Xã Cư Pui', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2333, '24580', 'Xã Liên Sơn Lắk', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2334, '24595', 'Xã Đắk Liêng', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2335, '24607', 'Xã Nam Ka', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2336, '24598', 'Xã Đắk Phơi', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2337, '24604', 'Xã Krông Nô', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2338, '24540', 'Xã Ea Ning', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2339, '24561', 'Xã Dray Bhăng', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2340, '24544', 'Xã Ea Ktur', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2341, '24538', 'Xã Krông Ana', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2342, '24568', 'Xã Dur Kmăl', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2343, '24559', 'Xã Ea Na', 25)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2344, '24781', 'Phường Xuân Hương - Đà Lạt', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2345, '24787', 'Phường Cam Ly - Đà Lạt', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2346, '24778', 'Phường Lâm Viên - Đà Lạt', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2347, '24805', 'Phường Xuân Trường - Đà Lạt', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2348, '24846', 'Phường Lang Biang - Đà Lạt', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2349, '24823', 'Phường 1 Bảo Lộc', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2350, '24820', 'Phường 2 Bảo Lộc', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2351, '24841', 'Phường 3 Bảo Lộc', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2352, '24829', 'Phường B’Lao', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2353, '24848', 'Xã Lạc Dương', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2354, '24931', 'Xã Đơn Dương', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2355, '24943', 'Xã Ka Đô', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2356, '24955', 'Xã Quảng Lập', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2357, '24934', 'Xã D’Ran', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2358, '24967', 'Xã Hiệp Thạnh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2359, '24958', 'Xã Đức Trọng', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2360, '24976', 'Xã Tân Hội', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2361, '24991', 'Xã Tà Hine', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2362, '24988', 'Xã Tà Năng', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2363, '24985', 'Xã Ninh Gia', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2364, '24871', 'Xã Đinh Văn Lâm Hà', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2365, '24895', 'Xã Phú Sơn Lâm Hà', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2366, '24883', 'Xã Nam Hà Lâm Hà', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2367, '24868', 'Xã Nam Ban Lâm Hà', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2368, '24916', 'Xã Tân Hà Lâm Hà', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2369, '24907', 'Xã Phúc Thọ Lâm Hà', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2370, '24886', 'Xã Đam Rông 1', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2371, '24877', 'Xã Đam Rông 2', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2372, '24875', 'Xã Đam Rông 3', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2373, '24853', 'Xã Đam Rông 4', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2374, '25000', 'Xã Di Linh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2375, '25036', 'Xã Hòa Ninh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2376, '25042', 'Xã Hòa Bắc', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2377, '25007', 'Xã Đinh Trang Thượng', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2378, '25018', 'Xã Bảo Thuận', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2379, '25051', 'Xã Sơn Điền', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2380, '25015', 'Xã Gia Hiệp', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2381, '25054', 'Xã Bảo Lâm 1', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2382, '25084', 'Xã Bảo Lâm 2', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2383, '25093', 'Xã Bảo Lâm 3', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2384, '25063', 'Xã Bảo Lâm 4', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2385, '25057', 'Xã Bảo Lâm 5', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2386, '25099', 'Xã Đạ Huoai', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2387, '25105', 'Xã Đạ Huoai 2', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2388, '25114', 'Xã Đạ Huoai 3', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2389, '25126', 'Xã Đạ Tẻh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2390, '25138', 'Xã Đạ Tẻh 2', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2391, '25135', 'Xã Đạ Tẻh 3', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2392, '25159', 'Xã Cát Tiên', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2393, '25180', 'Xã Cát Tiên 2', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2394, '25162', 'Xã Cát Tiên 3', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2395, '22933', 'Phường Hàm Thắng', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2396, '22960', 'Phường Bình Thuận', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2397, '22918', 'Phường Mũi Né', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2398, '22924', 'Phường Phú Thủy', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2399, '22945', 'Phường Phan Thiết', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2400, '22954', 'Phường Tiến Thành', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2401, '23235', 'Phường La Gi', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2402, '23231', 'Phường Phước Hội', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2403, '22963', 'Xã Tuyên Quang', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2404, '23246', 'Xã Tân Hải', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2405, '22981', 'Xã Vĩnh Hảo', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2406, '22969', 'Xã Liên Hương', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2407, '22978', 'Xã Tuy Phong', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2408, '22972', 'Xã Phan Rí Cửa', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2409, '23005', 'Xã Bắc Bình', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2410, '23041', 'Xã Hồng Thái', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2411, '23020', 'Xã Hải Ninh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2412, '23008', 'Xã Phan Sơn', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2413, '23023', 'Xã Sông Lũy', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2414, '23032', 'Xã Lương Sơn', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2415, '23053', 'Xã Hòa Thắng', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2416, '23074', 'Xã Đông Giang', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2417, '23065', 'Xã La Dạ', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2418, '23089', 'Xã Hàm Thuận Bắc', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2419, '23059', 'Xã Hàm Thuận', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2420, '23086', 'Xã Hồng Sơn', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2421, '23095', 'Xã Hàm Liêm', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2422, '23122', 'Xã Hàm Thạnh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2423, '23128', 'Xã Hàm Kiệm', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2424, '23143', 'Xã Tân Thành', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2425, '23110', 'Xã Hàm Thuận Nam', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2426, '23134', 'Xã Tân Lập', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2427, '23230', 'Xã Tân Minh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2428, '23236', 'Xã Hàm Tân', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2429, '23266', 'Xã Sơn Mỹ', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2430, '23152', 'Xã Bắc Ruộng', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2431, '23158', 'Xã Nghị Đức', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2432, '23173', 'Xã Đồng Kho', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2433, '23149', 'Xã Tánh Linh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2434, '23188', 'Xã Suối Kiết', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2435, '23200', 'Xã Nam Thành', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2436, '23191', 'Xã Đức Linh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2437, '23194', 'Xã Hoài Đức', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2438, '23227', 'Xã Trà Tân', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2439, '23272', 'Đặc khu Phú Quý', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2440, '24611', 'Phường Bắc Gia Nghĩa', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2441, '24615', 'Phường Nam Gia Nghĩa', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2442, '24617', 'Phường Đông Gia Nghĩa', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2443, '24646', 'Xã Đắk Wil', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2444, '24649', 'Xã Nam Dong', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2445, '24640', 'Xã Cư Jút', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2446, '24682', 'Xã Thuận An', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2447, '24664', 'Xã Đức Lập', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2448, '24670', 'Xã Đắk Mil', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2449, '24678', 'Xã Đắk Sắk', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2450, '24697', 'Xã Nam Đà', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2451, '24688', 'Xã Krông Nô', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2452, '24703', 'Xã Nâm Nung', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2453, '24712', 'Xã Quảng Phú', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2454, '24718', 'Xã Đắk song', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2455, '24717', 'Xã Đức An', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2456, '24722', 'Xã Thuận Hạnh', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2457, '24730', 'Xã Trường Xuân', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2458, '24637', 'Xã Tà Đùng', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2459, '24631', 'Xã Quảng Khê', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2460, '24748', 'Xã Quảng Tân', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2461, '24739', 'Xã Tuy Đức', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2462, '24733', 'Xã Kiến Đức', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2463, '24751', 'Xã Nhân Cơ', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2464, '24760', 'Xã Quảng Tín', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2465, '24620', 'Xã Quảng Hòa', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2466, '24616', 'Xã Quảng Sơn', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2467, '24736', 'Xã Quảng Trực', 26)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2468, '25459', 'Phường Tân Ninh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2469, '25480', 'Phường Bình Minh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2470, '25567', 'Phường Ninh Thạnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2471, '25630', 'Phường Long Hoa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2472, '25645', 'Phường Hòa Thành', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2473, '25633', 'Phường Thanh Điền', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2474, '25708', 'Phường Trảng Bàng', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2475, '25732', 'Phường An Tịnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2476, '25654', 'Phường Gò Dầu', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2477, '25672', 'Phường Gia Lộc', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2478, '25711', 'Xã Hưng Thuận', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2479, '25729', 'Xã Phước Chỉ', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2480, '25657', 'Xã Thạnh Đức', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2481, '25663', 'Xã Phước Thạnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2482, '25666', 'Xã Truông Mít', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2483, '25579', 'Xã Lộc Ninh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2484, '25573', 'Xã Cầu Khởi', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2485, '25552', 'Xã Dương Minh Châu', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2486, '25522', 'Xã Tân Đông', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2487, '25516', 'Xã Tân Châu', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2488, '25549', 'Xã Tân Phú', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2489, '25525', 'Xã Tân Hội', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2490, '25534', 'Xã Tân Thành', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2491, '25531', 'Xã Tân Hòa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2492, '25489', 'Xã Tân Lập', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2493, '25486', 'Xã Tân Biên', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2494, '25498', 'Xã Thạnh Bình', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2495, '25510', 'Xã Trà Vong', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2496, '25591', 'Xã Phước Vinh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2497, '25606', 'Xã Hòa Hội', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2498, '25621', 'Xã Ninh Điền', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2499, '25585', 'Xã Châu Thành', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2500, '25588', 'Xã Hảo Đước', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2501, '25684', 'Xã Long Chữ', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2502, '25702', 'Xã Long Thuận', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2503, '25681', 'Xã Bến Cầu', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2504, '27727', 'Xã Hưng Điền', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2505, '27736', 'Xã Vĩnh Thạnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2506, '27721', 'Xã Tân Hưng', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2507, '27748', 'Xã Vĩnh Châu', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2508, '27775', 'Xã Tuyên Bình', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2509, '27757', 'Xã Vĩnh Hưng', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2510, '27763', 'Xã Khánh Hưng', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2511, '27817', 'Xã Tuyên Thạnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2512, '27793', 'Xã Bình Hiệp', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2513, '27787', 'Phường Kiến Tường', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2514, '27811', 'Xã Bình Hòa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2515, '27823', 'Xã Mộc Hóa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2516, '27841', 'Xã Hậu Thạnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2517, '27838', 'Xã Nhơn Hòa Lập', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2518, '27856', 'Xã Nhơn Ninh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2519, '27826', 'Xã Tân Thạnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2520, '27868', 'Xã Bình Thành', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2521, '27877', 'Xã Thạnh Phước', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2522, '27865', 'Xã Thạnh Hóa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2523, '27889', 'Xã Tân Tây', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2524, '28036', 'Xã Thủ Thừa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2525, '28066', 'Xã Mỹ An', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2526, '28051', 'Xã Mỹ Thạnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2527, '28072', 'Xã Tân Long', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2528, '27907', 'Xã Mỹ Quý', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2529, '27898', 'Xã Đông Thành', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2530, '27925', 'Xã Đức Huệ', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2531, '27943', 'Xã An Ninh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2532, '27952', 'Xã Hiệp Hòa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2533, '27931', 'Xã Hậu Nghĩa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2534, '27979', 'Xã Hòa Khánh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2535, '27964', 'Xã Đức Lập', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2536, '27976', 'Xã Mỹ Hạnh', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2537, '27937', 'Xã Đức Hòa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2538, '27994', 'Xã Thạnh Lợi', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2539, '28015', 'Xã Bình Đức', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2540, '28003', 'Xã Lương Hòa', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2541, '27991', 'Xã Bến Lức', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2542, '28018', 'Xã Mỹ Yên', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2543, '28126', 'Xã Long Cang', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2544, '28114', 'Xã Rạch Kiến', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2545, '28132', 'Xã Mỹ Lệ', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2546, '28138', 'Xã Tân Lân', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2547, '28108', 'Xã Cần Đước', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2548, '28144', 'Xã Long Hựu', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2549, '28165', 'Xã Phước Lý', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2550, '28177', 'Xã Mỹ Lộc', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2551, '28159', 'Xã Cần Giuộc', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2552, '28201', 'Xã Phước Vĩnh Tây', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2553, '28207', 'Xã Tân Tập', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2554, '28093', 'Xã Vàm Cỏ', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2555, '28075', 'Xã Tân Trụ', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2556, '28087', 'Xã Nhựt Tảo', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2557, '28225', 'Xã Thuận Mỹ', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2558, '28243', 'Xã An Lục Long', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2559, '28210', 'Xã Tầm Vu', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2560, '28222', 'Xã Vĩnh Công', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2561, '27694', 'Phường Long An', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2562, '27712', 'Phường Tân An', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2563, '27715', 'Phường Khánh Hậu', 27)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2564, '26068', 'Phường Biên Hòa', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2565, '26041', 'Phường Trấn Biên', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2566, '26017', 'Phường Tam Hiệp', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2567, '26020', 'Phường Long Bình', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2568, '25993', 'Phường Trảng Dài', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2569, '26005', 'Phường Hố Nai', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2570, '26380', 'Phường Long Hưng', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2571, '26491', 'Xã Đại Phước', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2572, '26485', 'Xã Nhơn Trạch', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2573, '26503', 'Xã Phước An', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2574, '26422', 'Xã Phước Thái', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2575, '26413', 'Xã Long Phước', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2576, '26389', 'Xã Bình An', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2577, '26368', 'Xã Long Thành', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2578, '26383', 'Xã An Phước', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2579, '26296', 'Xã An Viễn', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2580, '26278', 'Xã Bình Minh', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2581, '26248', 'Xã Trảng Bom', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2582, '26254', 'Xã Bàu Hàm', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2583, '26281', 'Xã Hưng Thịnh', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2584, '26326', 'Xã Dầu Giây', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2585, '26311', 'Xã Gia Kiệm', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2586, '26299', 'Xã Thống Nhất', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2587, '26089', 'Phường Bình Lộc', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2588, '26098', 'Phường Bảo Vinh', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2589, '26104', 'Phường Xuân Lập', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2590, '26080', 'Phường Long Khánh', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2591, '26113', 'Phường Hàng Gòn', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2592, '26332', 'Xã Xuân Quế', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2593, '26347', 'Xã Xuân Đường', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2594, '26341', 'Xã Cẩm Mỹ', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2595, '26362', 'Xã Sông Ray', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2596, '26359', 'Xã Xuân Đông', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2597, '26461', 'Xã Xuân Định', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2598, '26458', 'Xã Xuân Phú', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2599, '26425', 'Xã Xuân Lộc', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2600, '26446', 'Xã Xuân Hòa', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2601, '26434', 'Xã Xuân Thành', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2602, '26428', 'Xã Xuân Bắc', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2603, '26227', 'Xã La Ngà', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2604, '26206', 'Xã Định Quán', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2605, '26215', 'Xã Phú Vinh', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2606, '26221', 'Xã Phú Hòa', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2607, '26134', 'Xã Tà Lài', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2608, '26122', 'Xã Nam Cát Tiên', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2609, '26116', 'Xã Tân Phú', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2610, '26158', 'Xã Phú Lâm', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2611, '26170', 'Xã Trị An', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2612, '26179', 'Xã Tân An', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2613, '26188', 'Phường Tân Triều', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2614, '25441', 'Phường Minh Hưng', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2615, '25432', 'Phường Chơn Thành', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2616, '25450', 'Xã Nha Bích', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2617, '25351', 'Xã Tân Quan', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2618, '25345', 'Xã Tân Hưng', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2619, '25357', 'Xã Tân Khai', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2620, '25349', 'Xã Minh Đức', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2621, '25326', 'Phường Bình Long', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2622, '25333', 'Phường An Lộc', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2623, '25294', 'Xã Lộc Thành', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2624, '25270', 'Xã Lộc Ninh', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2625, '25303', 'Xã Lộc Hưng', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2626, '25279', 'Xã Lộc Tấn', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2627, '25280', 'Xã Lộc Thạnh', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2628, '25292', 'Xã Lộc Quang', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2629, '25318', 'Xã Tân Tiến', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2630, '25308', 'Xã Thiện Hưng', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2631, '25309', 'Xã Hưng Phước', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2632, '25267', 'Xã Phú Nghĩa', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2633, '25231', 'Xã Đa Kia', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2634, '25220', 'Phường Phước Bình', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2635, '25217', 'Phường Phước Long', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2636, '25246', 'Xã Bình Tân', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2637, '25255', 'Xã Long Hà', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2638, '25252', 'Xã Phú Riềng', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2639, '25261', 'Xã Phú Trung', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2640, '25210', 'Phường Đồng Xoài', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2641, '25195', 'Phường Bình Phước', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2642, '25387', 'Xã Thuận Lợi', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2643, '25390', 'Xã Đồng Tâm', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2644, '25378', 'Xã Tân Lợi', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2645, '25363', 'Xã Đồng Phú', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2646, '25420', 'Xã Phước Sơn', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2647, '25417', 'Xã Nghĩa Trung', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2648, '25396', 'Xã Bù Đăng', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2649, '25402', 'Xã Thọ Sơn', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2650, '25399', 'Xã Đak Nhau', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2651, '25405', 'Xã Bom Bo', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2652, '26374', 'Phường Tam Phước', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2653, '26377', 'Phường Phước Tân', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2654, '26209', 'Xã Thanh Sơn', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2655, '26119', 'Xã Đak Lua', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2656, '26173', 'Xã Phú Lý', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2657, '25222', 'Xã Bù Gia Mập', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2658, '25225', 'Xã Đăk Ơ', 28)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2659, '25951', 'Phường Đông Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2660, '25942', 'Phường Dĩ An', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2661, '25945', 'Phường Tân Đông Hiệp', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2662, '25978', 'Phường Thuận An', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2663, '25969', 'Phường Thuận Giao', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2664, '25987', 'Phường Bình Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2665, '25966', 'Phường Lái Thiêu', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2666, '25975', 'Phường An Phú', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2667, '25760', 'Phường Bình Dương', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2668, '25771', 'Phường Chánh Hiệp', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2669, '25747', 'Phường Thủ Dầu Một', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2670, '25750', 'Phường Phú Lợi', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2671, '25912', 'Phường Vĩnh Tân', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2672, '25915', 'Phường Bình Cơ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2673, '25888', 'Phường Tân Uyên', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2674, '25920', 'Phường Tân Hiệp', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2675, '25891', 'Phường Tân Khánh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2676, '25849', 'Phường Hòa Lợi', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2677, '25768', 'Phường Phú An', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2678, '25843', 'Phường Tây Nam', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2679, '25840', 'Phường Long Nguyên', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2680, '25813', 'Phường Bến Cát', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2681, '25837', 'Phường Chánh Phú Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2682, '25906', 'Xã Bắc Tân Uyên', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2683, '25909', 'Xã Thường Tân', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2684, '25867', 'Xã An Long', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2685, '25864', 'Xã Phước Thành', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2686, '25882', 'Xã Phước Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2687, '25858', 'Xã Phú Giáo', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2688, '25819', 'Xã Trừ Văn Thố', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2689, '25822', 'Xã Bàu Bàng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2690, '25780', 'Xã Minh Thạnh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2691, '25792', 'Xã Long Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2692, '25777', 'Xã Dầu Tiếng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2693, '25807', 'Xã Thanh An', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2694, '25846', 'Phường Thới Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2695, '26506', 'Phường Vũng Tàu', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2696, '26526', 'Phường Tam Thắng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2697, '26536', 'Phường Rạch Dừa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2698, '26542', 'Phường Phước Thắng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2699, '26560', 'Phường Bà Rịa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2700, '26566', 'Phường Long Hương', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2701, '26704', 'Phường Phú Mỹ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2702, '26572', 'Phường Tam Long', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2703, '26725', 'Phường Tân Thành', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2704, '26713', 'Phường Tân Phước', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2705, '26710', 'Phường Tân Hải', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2706, '26728', 'Xã Châu Pha', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2707, '26575', 'Xã Ngãi Giao', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2708, '26590', 'Xã Bình Giã', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2709, '26608', 'Xã Kim Long', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2710, '26596', 'Xã Châu Đức', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2711, '26584', 'Xã Xuân Sơn', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2712, '26617', 'Xã Nghĩa Thành', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2713, '26620', 'Xã Hồ Tràm', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2714, '26632', 'Xã Xuyên Mộc', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2715, '26641', 'Xã Hòa Hội', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2716, '26638', 'Xã Bàu Lâm', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2717, '26686', 'Xã Phước Hải', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2718, '26662', 'Xã Long Hải', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2719, '26680', 'Xã Đất Đỏ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2720, '26659', 'Xã Long Điền', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2721, '26732', 'Đặc khu Côn Đảo', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2722, '26740', 'Phường Sài Gòn', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2723, '26737', 'Phường Tân Định', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2724, '26743', 'Phường Bến Thành', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2725, '26758', 'Phường Cầu Ông Lãnh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2726, '27154', 'Phường Bàn Cờ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2727, '27139', 'Phường Xuân Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2728, '27142', 'Phường Nhiêu Lộc', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2729, '27259', 'Phường Xóm Chiếu', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2730, '27265', 'Phường Khánh Hội', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2731, '27286', 'Phường Vĩnh Hội', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2732, '27301', 'Phường Chợ Quán', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2733, '27316', 'Phường An Đông', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2734, '27343', 'Phường Chợ Lớn', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2735, '27367', 'Phường Bình Tây', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2736, '27373', 'Phường Bình Tiên', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2737, '27364', 'Phường Bình Phú', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2738, '27349', 'Phường Phú Lâm', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2739, '27478', 'Phường Tân Thuận', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2740, '27484', 'Phường Phú Thuận', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2741, '27487', 'Phường Tân Mỹ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2742, '27475', 'Phường Tân Hưng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2743, '27418', 'Phường Chánh Hưng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2744, '27427', 'Phường Phú Định', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2745, '27424', 'Phường Bình Đông', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2746, '27169', 'Phường Diên Hồng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2747, '27190', 'Phường Vườn Lài', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2748, '27163', 'Phường Hòa Hưng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2749, '27238', 'Phường Minh Phụng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2750, '27232', 'Phường Bình Thới', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2751, '27211', 'Phường Hòa Bình', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2752, '27226', 'Phường Phú Thọ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2753, '26791', 'Phường Đông Hưng Thuận', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2754, '26785', 'Phường Trung Mỹ Tây', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2755, '26782', 'Phường Tân Thới Hiệp', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2756, '26773', 'Phường Thới An', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2757, '26767', 'Phường An Phú Đông', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2758, '27460', 'Phường An Lạc', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2759, '27457', 'Phường Tân Tạo', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2760, '27442', 'Phường Bình Tân', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2761, '27448', 'Phường Bình Trị Đông', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2762, '27439', 'Phường Bình Hưng Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2763, '26944', 'Phường Gia Định', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2764, '26929', 'Phường Bình Thạnh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2765, '26905', 'Phường Bình Lợi Trung', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2766, '26956', 'Phường Thạnh Mỹ Tây', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2767, '26911', 'Phường Bình Quới', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2768, '26890', 'Phường Hạnh Thông', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2769, '26876', 'Phường An Nhơn', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2770, '26884', 'Phường Gò Vấp', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2771, '26878', 'Phường An Hội Đông', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2772, '26898', 'Phường Thông Tây Hội', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2773, '26882', 'Phường An Hội Tây', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2774, '27043', 'Phường Đức Nhuận', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2775, '27058', 'Phường Cầu Kiệu', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2776, '27073', 'Phường Phú Nhuận', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2777, '26977', 'Phường Tân Sơn Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2778, '26968', 'Phường Tân Sơn Nhất', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2779, '26995', 'Phường Tân Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2780, '26983', 'Phường Bảy Hiền', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2781, '27004', 'Phường Tân Bình', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2782, '27007', 'Phường Tân Sơn', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2783, '27013', 'Phường Tây Thạnh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2784, '27019', 'Phường Tân Sơn Nhì', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2785, '27022', 'Phường Phú Thọ Hòa', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2786, '27031', 'Phường Tân Phú', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2787, '27028', 'Phường Phú Thạnh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2788, '26809', 'Phường Hiệp Bình', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2789, '26824', 'Phường Thủ Đức', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2790, '26803', 'Phường Tam Bình', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2791, '26800', 'Phường Linh Xuân', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2792, '26842', 'Phường Tăng Nhơn Phú', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2793, '26833', 'Phường Long Bình', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2794, '26857', 'Phường Long Phước', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2795, '26860', 'Phường Long Trường', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2796, '27112', 'Phường Cát Lái', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2797, '27097', 'Phường Bình Trưng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2798, '26848', 'Phường Phước Long', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2799, '27094', 'Phường An Khánh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2800, '27601', 'Xã Vĩnh Lộc', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2801, '27604', 'Xã Tân Vĩnh Lộc', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2802, '27610', 'Xã Bình Lợi', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2803, '27595', 'Xã Tân Nhựt', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2804, '27637', 'Xã Bình Chánh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2805, '27628', 'Xã Hưng Long', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2806, '27619', 'Xã Bình Hưng', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2807, '27667', 'Xã Bình Khánh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2808, '27673', 'Xã An Thới Đông', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2809, '27664', 'Xã Cần Giờ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2810, '27553', 'Xã Củ Chi', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2811, '27496', 'Xã Tân An Hội', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2812, '27526', 'Xã Thái Mỹ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2813, '27508', 'Xã An Nhơn Tây', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2814, '27511', 'Xã Nhuận Đức', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2815, '27541', 'Xã Phú Hòa Đông', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2816, '27544', 'Xã Bình Mỹ', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2817, '27568', 'Xã Đông Thạnh', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2818, '27559', 'Xã Hóc Môn', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2819, '27577', 'Xã Xuân Thới Sơn', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2820, '27592', 'Xã Bà Điểm', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2821, '27655', 'Xã Nhà Bè', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2822, '27658', 'Xã Hiệp Phước', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2823, '26545', 'Xã Long Sơn', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2824, '26647', 'Xã Hòa Hiệp', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2825, '26656', 'Xã Bình Châu', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2826, '27676', 'Xã Thạnh An', 29)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2827, '28777', 'Phường An Hội', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2828, '28756', 'Phường Phú Khương', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2829, '28789', 'Phường Bến Tre', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2830, '28783', 'Phường Sơn Đông', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2831, '28858', 'Phường Phú Tân', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2832, '28810', 'Xã Phú Túc', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2833, '28807', 'Xã Giao Long', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2834, '28861', 'Xã Tiên Thủy', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2835, '28840', 'Xã Tân Phú', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2836, '28879', 'Xã Phú Phụng', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2837, '28870', 'Xã Chợ Lách', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2838, '28894', 'Xã Vĩnh Thành', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2839, '28901', 'Xã Hưng Khánh Trung', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2840, '28915', 'Xã Phước Mỹ Trung', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2841, '28921', 'Xã Tân Thành Bình', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2842, '28948', 'Xã Nhuận Phú Tân', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2843, '28945', 'Xã Đồng Khởi', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2844, '28903', 'Xã Mỏ Cày', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2845, '28969', 'Xã Thành Thới', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2846, '28957', 'Xã An Định', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2847, '28981', 'Xã Hương Mỹ', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2848, '29194', 'Xã Đại Điền', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2849, '29191', 'Xã Quới Điền', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2850, '29182', 'Xã Thạnh Phú', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2851, '29224', 'Xã An Qui', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2852, '29221', 'Xã Thạnh Hải', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2853, '29227', 'Xã Thạnh Phong', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2854, '29167', 'Xã Tân Thủy', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2855, '29125', 'Xã Bảo Thạnh', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2856, '29110', 'Xã Ba Tri', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2857, '29137', 'Xã Tân Xuân', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2858, '29122', 'Xã Mỹ Chánh Hòa', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2859, '29143', 'Xã An Ngãi Trung', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2860, '29158', 'Xã An Hiệp', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2861, '29044', 'Xã Hưng Nhượng', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2862, '28984', 'Xã Giồng Trôm', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2863, '29029', 'Xã Tân Hào', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2864, '29020', 'Xã Phước Long', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2865, '28993', 'Xã Lương Phú', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2866, '28996', 'Xã Châu Hòa', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2867, '28987', 'Xã Lương Hòa', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2868, '29107', 'Xã Thới Thuận', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2869, '29104', 'Xã Thạnh Phước', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2870, '29050', 'Xã Bình Đại', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2871, '29089', 'Xã Thạnh Trị', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2872, '29077', 'Xã Lộc Thuận', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2873, '29083', 'Xã Châu Hưng', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2874, '29062', 'Xã Phú Thuận', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2875, '29242', 'Phường Trà Vinh', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2876, '29263', 'Phường Long Đức', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2877, '29254', 'Phường Nguyệt Hóa', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2878, '29398', 'Phường Hòa Thuận', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2879, '29266', 'Xã Càng Long', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2880, '29275', 'Xã An Trường', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2881, '29278', 'Xã Tân An', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2882, '29302', 'Xã Nhị Long', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2883, '29287', 'Xã Bình Phú', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2884, '29374', 'Xã Châu Thành', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2885, '29386', 'Xã Song Lộc', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2886, '29407', 'Xã Hưng Mỹ', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2887, '29410', 'Xã Hòa Minh', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2888, '29413', 'Xã Long Hòa', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2889, '29308', 'Xã Cầu Kè', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2890, '29329', 'Xã Phong Thạnh', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2891, '29317', 'Xã An Phú Tân', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2892, '29335', 'Xã Tam Ngãi', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2893, '29341', 'Xã Tiểu Cần', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2894, '29371', 'Xã Tân Hòa', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2895, '29362', 'Xã Hùng Hòa', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2896, '29365', 'Xã Tập Ngãi', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2897, '29416', 'Xã Cầu Ngang', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2898, '29419', 'Xã Mỹ Long', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2899, '29431', 'Xã Vinh Kim', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2900, '29446', 'Xã Nhị Trường', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2901, '29455', 'Xã Hiệp Mỹ', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2902, '29461', 'Xã Trà Cú', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2903, '29476', 'Xã Lưu Nghiệp Anh', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2904, '29491', 'Xã Đại An', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2905, '29489', 'Xã Hàm Giang', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2906, '29506', 'Xã Long Hiệp', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2907, '29467', 'Xã Tập Sơn', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2908, '29512', 'Phường Duyên Hải', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2909, '29516', 'Phường Trường Long Hòa', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2910, '29518', 'Xã Long Hữu', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2911, '29513', 'Xã Long Thành', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2912, '29536', 'Xã Đông Hải', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2913, '29533', 'Xã Long Vĩnh', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2914, '29497', 'Xã Đôn Châu', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2915, '29530', 'Xã Ngũ Lạc', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2916, '29641', 'Xã Cái Nhum', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2917, '29653', 'Xã Tân Long Hội', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2918, '29623', 'Xã Nhơn Phú', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2919, '29638', 'Xã Bình Phước', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2920, '29584', 'Xã An Bình', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2921, '29602', 'Xã Long Hồ', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2922, '29611', 'Xã Phú Quới', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2923, '29590', 'Phường Thanh Đức', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2924, '29551', 'Phường Long Châu', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2925, '29557', 'Phường Phước Hậu', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2926, '29593', 'Phường Tân Hạnh', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2927, '29566', 'Phường Tân Ngãi', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2928, '29677', 'Xã Quới Thiện', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2929, '29659', 'Xã Trung Thành', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2930, '29698', 'Xã Trung Ngãi', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2931, '29668', 'Xã Quới An', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2932, '29683', 'Xã Trung Hiệp', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2933, '29701', 'Xã Hiếu Phụng', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2934, '29713', 'Xã Hiếu Thành', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2935, '29857', 'Xã Lục Sỹ Thành', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2936, '29821', 'Xã Trà Ôn', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2937, '29836', 'Xã Trà Côn', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2938, '29845', 'Xã Vĩnh Xuân', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2939, '29830', 'Xã Hòa Bình', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2940, '29734', 'Xã Hòa Hiệp', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2941, '29719', 'Xã Tam Bình', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2942, '29767', 'Xã Ngãi Tứ', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2943, '29740', 'Xã Song Phú', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2944, '29728', 'Xã Cái Ngang', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2945, '29800', 'Xã Tân Quới', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2946, '29785', 'Xã Tân Lược', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2947, '29788', 'Xã Mỹ Thuận', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2948, '29771', 'Phường Bình Minh', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2949, '29770', 'Phường Cái Vồn', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2950, '29812', 'Phường Đông Thành', 30)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2951, '29926', 'Xã Tân Hồng', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2952, '29938', 'Xã Tân Thành', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2953, '29929', 'Xã Tân Hộ Cơ', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2954, '29944', 'Xã An Phước', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2955, '29954', 'Phường An Bình', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2956, '29955', 'Phường Hồng Ngự', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2957, '29978', 'Phường Thường Lạc', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2958, '29971', 'Xã Thường Phước', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2959, '29983', 'Xã Long Khánh', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2960, '29992', 'Xã Long Phú Thuận', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2961, '30019', 'Xã An Hòa', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2962, '30010', 'Xã Tam Nông', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2963, '30034', 'Xã Phú Thọ', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2964, '30001', 'Xã Tràm Chim', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2965, '30025', 'Xã Phú Cường', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2966, '30028', 'Xã An Long', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2967, '30130', 'Xã Thanh Bình', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2968, '30157', 'Xã Tân Thạnh', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2969, '30163', 'Xã Bình Thành', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2970, '30154', 'Xã Tân Long', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2971, '30037', 'Xã Tháp Mười', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2972, '30073', 'Xã Thanh Mỹ', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2973, '30055', 'Xã Mỹ Quí', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2974, '30061', 'Xã Đốc Binh Kiều', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2975, '30046', 'Xã Trường Xuân', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2976, '30043', 'Xã Phương Thịnh', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2977, '30088', 'Xã Phong Mỹ', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2978, '30085', 'Xã Ba Sao', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2979, '30076', 'Xã Mỹ Thọ', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2980, '30118', 'Xã Bình Hàng Trung', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2981, '30112', 'Xã Mỹ Hiệp', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2982, '29869', 'Phường Cao Lãnh', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2983, '29884', 'Phường Mỹ Ngãi', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2984, '29888', 'Phường Mỹ Trà', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2985, '30178', 'Xã Mỹ An Hưng', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2986, '30184', 'Xã Tân Khánh Trung', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2987, '30169', 'Xã Lấp Vò', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2988, '30226', 'Xã Lai Vung', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2989, '30208', 'Xã Hòa Long', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2990, '30235', 'Xã Phong Hòa', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2991, '29905', 'Phường Sa Đéc', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2992, '30214', 'Xã Tân Dương', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2993, '30244', 'Xã Phú Hựu', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2994, '30253', 'Xã Tân Nhuận Đông', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2995, '30259', 'Xã Tân Phú Trung', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2996, '28261', 'Phường Mỹ Tho', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2997, '28249', 'Phường Đạo Thạnh', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2998, '28273', 'Phường Mỹ Phong', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (2999, '28270', 'Phường Thới Sơn', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3000, '28285', 'Phường Trung An', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3001, '28306', 'Phường Gò Công', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3002, '28297', 'Phường Long Thuận', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3003, '28729', 'Phường Sơn Qui', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3004, '28315', 'Phường Bình Xuân', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3005, '28435', 'Phường Mỹ Phước Tây', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3006, '28436', 'Phường Thanh Hòa', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3007, '28439', 'Phường Cai Lậy', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3008, '28477', 'Phường Nhị Quý', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3009, '28468', 'Xã Tân Phú', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3010, '28426', 'Xã Thanh Hưng', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3011, '28429', 'Xã An Hữu', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3012, '28414', 'Xã Mỹ Lợi', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3013, '28405', 'Xã Mỹ Đức Tây', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3014, '28378', 'Xã Mỹ Thiện', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3015, '28366', 'Xã Hậu Mỹ', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3016, '28393', 'Xã Hội Cư', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3017, '28360', 'Xã Cái Bè', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3018, '28471', 'Xã Bình Phú', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3019, '28501', 'Xã Hiệp Đức', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3020, '28516', 'Xã Ngũ Hiệp', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3021, '28504', 'Xã Long Tiên', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3022, '28456', 'Xã Mỹ Thành', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3023, '28444', 'Xã Thạnh Phú', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3024, '28321', 'Xã Tân Phước 1', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3025, '28327', 'Xã Tân Phước 2', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3026, '28345', 'Xã Tân Phước 3', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3027, '28336', 'Xã Hưng Thạnh', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3028, '28525', 'Xã Tân Hương', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3029, '28519', 'Xã Châu Thành', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3030, '28537', 'Xã Long Hưng', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3031, '28543', 'Xã Long Định', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3032, '28576', 'Xã Vĩnh Kim', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3033, '28582', 'Xã Kim Sơn', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3034, '28564', 'Xã Bình Trưng', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3035, '28603', 'Xã Mỹ Tịnh An', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3036, '28615', 'Xã Lương Hòa Lạc', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3037, '28627', 'Xã Tân Thuận Bình', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3038, '28594', 'Xã Chợ Gạo', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3039, '28633', 'Xã An Thạnh Thủy', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3040, '28648', 'Xã Bình Ninh', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3041, '28651', 'Xã Vĩnh Bình', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3042, '28660', 'Xã Đồng Sơn', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3043, '28663', 'Xã Phú Thành', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3044, '28687', 'Xã Long Bình', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3045, '28678', 'Xã Vĩnh Hựu', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3046, '28747', 'Xã Gò Công Đông', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3047, '28738', 'Xã Tân Điền', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3048, '28702', 'Xã Tân Hòa', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3049, '28723', 'Xã Tân Đông', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3050, '28720', 'Xã Gia Thuận', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3051, '28693', 'Xã Tân Thới', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3052, '28696', 'Xã Tân Phú Đông', 31)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3053, '30313', 'Xã Mỹ Hòa Hưng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3054, '30307', 'Phường Long Xuyên', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3055, '30292', 'Phường Bình Đức', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3056, '30301', 'Phường Mỹ Thới', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3057, '30316', 'Phường Châu Đốc', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3058, '30325', 'Phường Vĩnh Tế', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3059, '30337', 'Xã An Phú', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3060, '30367', 'Xã Vĩnh Hậu', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3061, '30346', 'Xã Nhơn Hội', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3062, '30341', 'Xã Khánh Bình', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3063, '30352', 'Xã Phú Hữu', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3064, '30388', 'Xã Tân An', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3065, '30403', 'Xã Châu Phong', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3066, '30385', 'Xã Vĩnh Xương', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3067, '30376', 'Phường Tân Châu', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3068, '30377', 'Phường Long Phú', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3069, '30406', 'Xã Phú Tân', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3070, '30436', 'Xã Phú An', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3071, '30445', 'Xã Bình Thạnh Đông', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3072, '30409', 'Xã Chợ Vàm', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3073, '30430', 'Xã Hòa Lạc', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3074, '30421', 'Xã Phú Lâm', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3075, '30463', 'Xã Châu Phú', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3076, '30469', 'Xã Mỹ Đức', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3077, '30478', 'Xã Vĩnh Thạnh Trung', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3078, '30487', 'Xã Bình Mỹ', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3079, '30481', 'Xã Thạnh Mỹ Tây', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3080, '30526', 'Xã An Cư', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3081, '30538', 'Xã Núi Cấm', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3082, '30520', 'Phường Tịnh Biên', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3083, '30502', 'Phường Thới Sơn', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3084, '30505', 'Phường Chi Lăng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3085, '30547', 'Xã Ba Chúc', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3086, '30544', 'Xã Tri Tôn', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3087, '30577', 'Xã Ô Lâm', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3088, '30580', 'Xã Cô Tô', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3089, '30568', 'Xã Vĩnh Gia', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3090, '30589', 'Xã An Châu', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3091, '30607', 'Xã Bình Hòa', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3092, '30595', 'Xã Cần Đăng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3093, '30619', 'Xã Vĩnh Hanh', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3094, '30604', 'Xã Vĩnh An', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3095, '30628', 'Xã Chợ Mới', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3096, '30643', 'Xã Cù Lao Giêng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3097, '30673', 'Xã Hội An', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3098, '30631', 'Xã Long Điền', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3099, '30658', 'Xã Nhơn Mỹ', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3100, '30664', 'Xã Long Kiến', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3101, '30682', 'Xã Thoại Sơn', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3102, '30688', 'Xã Óc Eo', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3103, '30709', 'Xã Định Mỹ', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3104, '30685', 'Xã Phú Hòa', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3105, '30697', 'Xã Vĩnh Trạch', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3106, '30691', 'Xã Tây Phú', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3107, '31064', 'Xã Vĩnh Bình', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3108, '31069', 'Xã Vĩnh Thuận', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3109, '31051', 'Xã Vĩnh Phong', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3110, '31012', 'Xã Vĩnh Hòa', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3111, '31027', 'Xã U Minh Thượng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3112, '31024', 'Xã Đông Hòa', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3113, '31031', 'Xã Tân Thạnh', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3114, '31036', 'Xã Đông Hưng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3115, '31018', 'Xã An Minh', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3116, '31042', 'Xã Vân Khánh', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3117, '30988', 'Xã Tây Yên', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3118, '31006', 'Xã Đông Thái', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3119, '30985', 'Xã An Biên', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3120, '30958', 'Xã Định Hòa', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3121, '30952', 'Xã Gò Quao', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3122, '30970', 'Xã Vĩnh Hòa Hưng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3123, '30982', 'Xã Vĩnh Tuy', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3124, '30904', 'Xã Giồng Riềng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3125, '30910', 'Xã Thạnh Hưng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3126, '30943', 'Xã Long Thạnh', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3127, '30934', 'Xã Hòa Hưng', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3128, '30928', 'Xã Ngọc Chúc', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3129, '30949', 'Xã Hòa Thuận', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3130, '30856', 'Xã Tân Hội', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3131, '30850', 'Xã Tân Hiệp', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3132, '30874', 'Xã Thạnh Đông', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3133, '30886', 'Xã Thạnh Lộc', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3134, '30880', 'Xã Châu Thành', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3135, '30898', 'Xã Bình An', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3136, '30817', 'Xã Hòn Đất', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3137, '30835', 'Xã Sơn Kiên', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3138, '30838', 'Xã Mỹ Thuận', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3139, '30823', 'Xã Bình Sơn', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3140, '30826', 'Xã Bình Giang', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3141, '30796', 'Xã Giang Thành', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3142, '30793', 'Xã Vĩnh Điều', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3143, '30790', 'Xã Hòa Điền', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3144, '30787', 'Xã Kiên Lương', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3145, '30811', 'Xã Sơn Hải', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3146, '30814', 'Xã Hòn Nghệ', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3147, '31108', 'Đặc khu Kiên Hải', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3148, '30760', 'Phường Vĩnh Thông', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3149, '30742', 'Phường Rạch Giá', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3150, '30769', 'Phường Hà Tiên', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3151, '30766', 'Phường Tô Châu', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3152, '30781', 'Xã Tiên Hải', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3153, '31078', 'Đặc khu Phú Quốc', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3154, '31105', 'Đặc khu Thổ Châu', 32)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3155, '31338', 'Xã Hỏa Lựu', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3156, '31321', 'Phường Vị Thanh', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3157, '31333', 'Phường Vị Tân', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3158, '31441', 'Xã Vị Thủy', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3159, '31453', 'Xã Vĩnh Thuận Đông', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3160, '31465', 'Xã Vị Thanh 1', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3161, '31459', 'Xã Vĩnh Tường', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3162, '31489', 'Xã Vĩnh Viễn', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3163, '31495', 'Xã Xà Phiên', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3164, '31492', 'Xã Lương Tâm', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3165, '31473', 'Phường Long Bình', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3166, '31471', 'Phường Long Mỹ', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3167, '31480', 'Phường Long Phú 1', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3168, '31360', 'Xã Thạnh Xuân', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3169, '31342', 'Xã Tân Hòa', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3170, '31348', 'Xã Trường Long Tây', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3171, '31366', 'Xã Châu Thành', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3172, '31369', 'Xã Đông Phước', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3173, '31378', 'Xã Phú Hữu', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3174, '31411', 'Phường Đại Thành', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3175, '31340', 'Phường Ngã Bảy', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3176, '31399', 'Xã Tân Bình', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3177, '31393', 'Xã Hòa An', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3178, '31426', 'Xã Phương Bình', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3179, '31432', 'Xã Tân Phước Hưng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3180, '31396', 'Xã Hiệp Hưng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3181, '31420', 'Xã Phụng Hiệp', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3182, '31408', 'Xã Thạnh Hòa', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3183, '31135', 'Phường Ninh Kiều', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3184, '31120', 'Phường Cái Khế', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3185, '31147', 'Phường Tân An', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3186, '31150', 'Phường An Bình', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3187, '31174', 'Phường Thới An Đông', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3188, '31168', 'Phường Bình Thủy', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3189, '31183', 'Phường Long Tuyền', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3190, '31186', 'Phường Cái Răng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3191, '31201', 'Phường Hưng Phú', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3192, '31153', 'Phường Ô Môn', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3193, '31157', 'Phường Thới Long', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3194, '31162', 'Phường Phước Thới', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3195, '31217', 'Phường Trung Nhứt', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3196, '31207', 'Phường Thốt Nốt', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3197, '31228', 'Phường Thuận Hưng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3198, '31213', 'Phường Tân Lộc', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3199, '31299', 'Xã Phong Điền', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3200, '31315', 'Xã Nhơn Ái', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3201, '31309', 'Xã Trường Long', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3202, '31258', 'Xã Thới Lai', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3203, '31282', 'Xã Đông Thuận', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3204, '31294', 'Xã Trường Xuân', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3205, '31288', 'Xã Trường Thành', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3206, '31261', 'Xã Cờ Đỏ', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3207, '31273', 'Xã Đông Hiệp', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3208, '31249', 'Xã Thạnh Phú', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3209, '31264', 'Xã Thới Hưng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3210, '31255', 'Xã Trung Hưng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3211, '31232', 'Xã Vĩnh Thạnh', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3212, '31237', 'Xã Vĩnh Trinh', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3213, '31231', 'Xã Thạnh An', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3214, '31246', 'Xã Thạnh Quới', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3215, '31510', 'Phường Phú Lợi', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3216, '31507', 'Phường Sóc Trăng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3217, '31684', 'Phường Mỹ Xuyên', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3218, '31717', 'Xã Hòa Tú', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3219, '31726', 'Xã Gia Hòa', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3220, '31708', 'Xã Nhu Gia', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3221, '31723', 'Xã Ngọc Tố', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3222, '31654', 'Xã Trường Khánh', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3223, '31645', 'Xã Đại Ngãi', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3224, '31666', 'Xã Tân Thạnh', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3225, '31639', 'Xã Long Phú', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3226, '31552', 'Xã Nhơn Mỹ', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3227, '31537', 'Xã Phong Nẫm', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3228, '31531', 'Xã An Lạc Thôn', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3229, '31528', 'Xã Kế Sách', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3230, '31540', 'Xã Thới An Hội', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3231, '31561', 'Xã Đại Hải', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3232, '31569', 'Xã Phú Tâm', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3233, '31594', 'Xã An Ninh', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3234, '31582', 'Xã Thuận Hòa', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3235, '31570', 'Xã Hồ Đắc Kiện', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3236, '31567', 'Xã Mỹ Tú', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3237, '31579', 'Xã Long Hưng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3238, '31603', 'Xã Mỹ Phước', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3239, '31591', 'Xã Mỹ Hương', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3240, '31795', 'Xã Vĩnh Hải', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3241, '31810', 'Xã Lai Hòa', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3242, '31804', 'Phường Vĩnh Phước', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3243, '31783', 'Phường Vĩnh Châu', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3244, '31789', 'Phường Khánh Hòa', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3245, '31741', 'Xã Tân Long', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3246, '31732', 'Phường Ngã Năm', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3247, '31753', 'Phường Mỹ Quới', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3248, '31756', 'Xã Phú Lộc', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3249, '31777', 'Xã Vĩnh Lợi', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3250, '31759', 'Xã Lâm Tân', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3251, '31699', 'Xã Thạnh Thới An', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3252, '31687', 'Xã Tài Văn', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3253, '31675', 'Xã Liêu Tú', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3254, '31679', 'Xã Lịch Hội Thượng', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3255, '31673', 'Xã Trần Đề', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3256, '31615', 'Xã An Thạnh', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3257, '31633', 'Xã Cù Lao Dung', 33)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3258, '31825', 'Phường Bạc Liêu', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3259, '31834', 'Phường Vĩnh Trạch', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3260, '31840', 'Phường Hiệp Thành', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3261, '31942', 'Phường Giá Rai', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3262, '31951', 'Phường Láng Tròn', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3263, '31957', 'Xã Phong Thạnh', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3264, '31843', 'Xã Hồng Dân', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3265, '31858', 'Xã Vĩnh Lộc', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3266, '31864', 'Xã Ninh Thạnh Lợi', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3267, '31849', 'Xã Ninh Quới', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3268, '31972', 'Xã Gành Hào', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3269, '31993', 'Xã Định Thành', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3270, '31988', 'Xã An Trạch', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3271, '31985', 'Xã Long Điền', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3272, '31975', 'Xã Đông Hải', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3273, '31891', 'Xã Hòa Bình', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3274, '31918', 'Xã Vĩnh Mỹ', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3275, '31927', 'Xã Vĩnh Hậu', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3276, '31867', 'Xã Phước Long', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3277, '31876', 'Xã Vĩnh Phước', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3278, '31885', 'Xã Phong Hiệp', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3279, '31882', 'Xã Vĩnh Thanh', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3280, '31900', 'Xã Vĩnh Lợi', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3281, '31906', 'Xã Hưng Hội', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3282, '31894', 'Xã Châu Thới', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3283, '32002', 'Phường An Xuyên', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3284, '32014', 'Phường Lý Văn Lâm', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3285, '32025', 'Phường Tân Thành', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3286, '32041', 'Phường Hòa Thành', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3287, '32167', 'Xã Tân Thuận', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3288, '32188', 'Xã Tân Tiến', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3289, '32155', 'Xã Tạ An Khương', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3290, '32161', 'Xã Trần Phán', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3291, '32185', 'Xã Thanh Tùng', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3292, '32152', 'Xã Đầm Dơi', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3293, '32182', 'Xã Quách Phẩm', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3294, '32047', 'Xã U Minh', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3295, '32044', 'Xã Nguyễn Phích', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3296, '32062', 'Xã Khánh Lâm', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3297, '32059', 'Xã Khánh An', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3298, '32244', 'Xã Phan Ngọc Hiển', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3299, '32248', 'Xã Đất Mũi', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3300, '32236', 'Xã Tân Ân', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3301, '32110', 'Xã Khánh Bình', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3302, '32104', 'Xã Đá Bạc', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3303, '32119', 'Xã Khánh Hưng', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3304, '32098', 'Xã Sông Đốc', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3305, '32095', 'Xã Trần Văn Thời', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3306, '32065', 'Xã Thới Bình', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3307, '32071', 'Xã Trí Phải', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3308, '32083', 'Xã Tân Lộc', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3309, '32092', 'Xã Hồ Thị Kỷ', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3310, '32069', 'Xã Biển Bạch', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3311, '32201', 'Xã Đất Mới', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3312, '32191', 'Xã Năm Căn', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3313, '32206', 'Xã Tam Giang', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3314, '32212', 'Xã Cái Đôi Vàm', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3315, '32227', 'Xã Nguyễn Việt Khái', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3316, '32218', 'Xã Phú Tân', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3317, '32214', 'Xã Phú Mỹ', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3318, '32134', 'Xã Lương Thế Trân', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3319, '32137', 'Xã Tân Hưng', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3320, '32140', 'Xã Hưng Mỹ', 34)
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO wards (id, code, name, province_id)
+-- VALUES (3321, '32128', 'Xã Cái Nước', 34)
+-- ON CONFLICT (id) DO NOTHING;
+
+-- COMMIT;

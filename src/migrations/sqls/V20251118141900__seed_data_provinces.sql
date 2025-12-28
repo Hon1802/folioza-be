@@ -1,0 +1,108 @@
+-- -- Migration: seed_data_provinces
+
+-- BEGIN;
+
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (1, '01', 'Thành phố Hà Nội')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (2, '24', 'Tỉnh Bắc Ninh')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (3, '22', 'Tỉnh Quảng Ninh')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (4, '31', 'Thành phố Hải Phòng')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (5, '33', 'Tỉnh Hưng Yên')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (6, '37', 'Tỉnh Ninh Bình')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (7, '04', 'Tỉnh Cao Bằng')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (8, '08', 'Tỉnh Tuyên Quang')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (9, '15', 'Tỉnh Lào Cai')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (10, '19', 'Tỉnh Thái Nguyên')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (11, '20', 'Tỉnh Lạng Sơn')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (12, '25', 'Tỉnh Phú Thọ')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (13, '11', 'Tỉnh Điện Biên')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (14, '12', 'Tỉnh Lai Châu')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (15, '14', 'Tỉnh Sơn La')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (16, '38', 'Tỉnh Thanh Hóa')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (17, '40', 'Tỉnh Nghệ An')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (18, '42', 'Tỉnh Hà Tĩnh')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (19, '44', 'Tỉnh Quảng Trị')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (20, '46', 'Thành phố Huế')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (21, '48', 'Thành phố Đà Nẵng')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (22, '51', 'Tỉnh Quảng Ngãi')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (23, '56', 'Tỉnh Khánh Hòa')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (24, '52', 'Tỉnh Gia Lai')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (25, '66', 'Tỉnh Đắk Lắk')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (26, '68', 'Tỉnh Lâm Đồng')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (27, '80', 'Tỉnh Tây Ninh')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (28, '75', 'Tỉnh Đồng Nai')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (29, '79', 'Thành phố Hồ Chí Minh')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (30, '86', 'Tỉnh Vĩnh Long')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (31, '82', 'Tỉnh Đồng Tháp')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (32, '91', 'Tỉnh An Giang')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (33, '92', 'Thành phố Cần Thơ')
+-- ON CONFLICT (id) DO NOTHING;
+-- INSERT INTO provinces (id, code, name)
+-- VALUES (34, '96', 'Tỉnh Cà Mau')
+-- ON CONFLICT (id) DO NOTHING;
+
+-- COMMIT;

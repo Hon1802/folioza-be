@@ -1,0 +1,88 @@
+-- -- Migration: seed_data_gift
+
+-- BEGIN;
+
+-- -- Insert gift categories
+-- INSERT INTO gift_categories (name, priority, status)
+-- SELECT 'Áo', 1, 'ACTIVE'
+-- WHERE NOT EXISTS (
+--   SELECT 1 FROM gift_categories WHERE name = 'Áo'
+-- );
+
+-- -- Insert gifts
+-- INSERT INTO gifts (
+--   name,
+--   status,
+--   type,
+--   priority,
+--   quantity,
+--   price,
+--   gift_category_id,
+--   file_id
+-- )
+-- SELECT
+--   'Áo thun Moozi Buddies',
+--   'ACTIVE',
+--   'PHYSICAL',
+--   1,
+--   100,
+--   100000,
+--   gc.id,
+--   NULL
+-- FROM gift_categories gc
+-- WHERE gc.name = 'Áo'
+--   AND NOT EXISTS (
+--     SELECT 1 FROM gifts WHERE name = 'Áo thun Moozi Buddies'
+--   );
+
+-- -- Insert journeys
+-- INSERT INTO journeys (
+--   name,
+--   status,
+--   start_date,
+--   end_date,
+--   gift_id
+-- )
+-- SELECT
+--   'Cùng Moozi trải nghiệm các hoạt động để được nhận áo thun Moozi Buddies',
+--   'ACTIVE',
+--   '2025-10-01 00:00:00+07',
+--   '2025-12-31 23:59:59+07',
+--   g.id
+-- FROM gifts g
+-- WHERE g.name = 'Áo thun Moozi Buddies'
+--   AND NOT EXISTS (
+--     SELECT 1 FROM journeys WHERE name = 'Cùng Moozi trải nghiệm các hoạt động để được nhận áo thun Moozi Buddies'
+--   );
+
+-- -- Insert journey details for Journey 1 (id = 1)
+-- INSERT INTO journey_details (
+--   journey_id,
+--   name,
+--   "order",
+--   required,
+--   icon_url
+-- )
+-- SELECT
+--   j.id,
+--   jd.name,
+--   jd."order",
+--   jd.required,
+--   jd.icon_url
+-- FROM journeys j
+-- CROSS JOIN (
+--   VALUES
+--     ('Check-in', 1, true, 'https://storage.googleapis.com/vitadairy_public_dev/moozi_event/checkin.png'),
+--     ('Thảo nguyên sáng tạo', 2, true, 'https://storage.googleapis.com/vitadairy_public_dev/moozi_event/thaonguyensangtao.png'),
+--     ('Vương quốc ngọt ngào', 3, false, 'https://storage.googleapis.com/vitadairy_public_dev/moozi_event/vuongquocngotngao.png'),
+--     ('Hòn đảo thiên đường', 4, false, 'https://storage.googleapis.com/vitadairy_public_dev/moozi_event/hondaothienduong.png'),
+--     ('Nông trại Moozi', 5, true, 'https://storage.googleapis.com/vitadairy_public_dev/moozi_event/nongtraimoozi.png'),
+--     ('Vườn trái cây diệu kỳ', 6, true, 'https://storage.googleapis.com/vitadairy_public_dev/moozi_event/vuontraicaydieuky.png'),
+--     ('Thu hoạch thạch Moozi', 7, true, 'https://storage.googleapis.com/vitadairy_public_dev/moozi_event/thuhoachthachmoozi.png')
+-- ) AS jd(name, "order", required, icon_url)
+-- WHERE j.name = 'Cùng Moozi trải nghiệm các hoạt động để được nhận áo thun Moozi Buddies'
+--   AND NOT EXISTS (
+--     SELECT 1 FROM journey_details WHERE journey_id = j.id AND name = jd.name
+--   );
+
+-- COMMIT;
