@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:20-alpine as development
+FROM node:20-alpine
 
 WORKDIR /usr/src/app
 COPY package.json ./
