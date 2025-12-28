@@ -20,10 +20,10 @@ jobs:
     # Build Docker image
     - name: Build Docker Image
       run: |
-          docker buildx build \
-            --platform linux/amd64 \
-            -t folioza-be \
-            --load .
+          docker build \
+          --no-cache \
+          --platform linux/arm64 \
+          -t folioza-be .
     # Save Docker image as a tar file
     - name: Save Docker Image
       run: |
